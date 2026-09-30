@@ -1,0 +1,1001 @@
+user_id,name,email,department,year,joined_date,account_status
+U0001,Aarav Nair,student0001@campusloop.edu,Architecture,4,2026-02-22,ACTIVE
+U0002,Aditya Nair,student0002@campusloop.edu,Mechanical,3,2026-07-09,ACTIVE
+U0003,Aishwarya Nair,student0003@campusloop.edu,Information Technology,2,2025-12-05,ACTIVE
+U0004,Akash Nair,student0004@campusloop.edu,Biotechnology,1,2026-06-30,ACTIVE
+U0005,Akshay Nair,student0005@campusloop.edu,Civil,4,2026-05-26,ACTIVE
+U0006,Amal Nair,student0006@campusloop.edu,Electronics,3,2025-07-12,ACTIVE
+U0007,Amritha Nair,student0007@campusloop.edu,Chemical Engineering,2,2026-06-28,ACTIVE
+U0008,Ananya Nair,student0008@campusloop.edu,AI & Data Science,1,2025-11-19,ACTIVE
+U0009,Anjali Nair,student0009@campusloop.edu,Electrical,4,2026-07-23,ACTIVE
+U0010,Aparna Nair,student0010@campusloop.edu,Computer Science,3,2025-07-14,ACTIVE
+U0011,Arjun Nair,student0011@campusloop.edu,Architecture,2,2026-03-12,ACTIVE
+U0012,Athira Nair,student0012@campusloop.edu,Mechanical,1,2025-09-29,ACTIVE
+U0013,Devika Nair,student0013@campusloop.edu,Information Technology,4,2025-12-26,ACTIVE
+U0014,Diya Nair,student0014@campusloop.edu,Biotechnology,3,2026-01-09,ACTIVE
+U0015,Fathima Nair,student0015@campusloop.edu,Civil,2,2026-08-09,ACTIVE
+U0016,Gautham Nair,student0016@campusloop.edu,Electronics,1,2026-08-05,ACTIVE
+U0017,Ishaan Nair,student0017@campusloop.edu,Chemical Engineering,4,2026-01-23,ACTIVE
+U0018,Joel Nair,student0018@campusloop.edu,AI & Data Science,3,2025-11-02,ACTIVE
+U0019,Keerthana Nair,student0019@campusloop.edu,Electrical,2,2026-03-16,ACTIVE
+U0020,Krishna Nair,student0020@campusloop.edu,Computer Science,1,2026-03-20,ACTIVE
+U0021,Meera Nair,student0021@campusloop.edu,Architecture,4,2025-08-21,ACTIVE
+U0022,Nandana Nair,student0022@campusloop.edu,Mechanical,3,2026-07-31,ACTIVE
+U0023,Nikhil Nair,student0023@campusloop.edu,Information Technology,2,2026-07-17,ACTIVE
+U0024,Rahul Nair,student0024@campusloop.edu,Biotechnology,1,2025-11-15,ACTIVE
+U0025,Riya Nair,student0025@campusloop.edu,Civil,4,2026-07-30,ACTIVE
+U0026,Rohan Nair,student0026@campusloop.edu,Electronics,3,2026-03-28,ACTIVE
+U0027,Sanjay Nair,student0027@campusloop.edu,Chemical Engineering,2,2026-07-17,ACTIVE
+U0028,Sneha Nair,student0028@campusloop.edu,AI & Data Science,1,2025-07-18,ACTIVE
+U0029,Vishnu Nair,student0029@campusloop.edu,Electrical,4,2025-07-21,ACTIVE
+U0030,Varsha Nair,student0030@campusloop.edu,Computer Science,3,2026-05-27,ACTIVE
+U0031,Aarav Menon,student0031@campusloop.edu,Architecture,2,2025-11-13,ACTIVE
+U0032,Aditya Menon,student0032@campusloop.edu,Mechanical,1,2025-07-07,ACTIVE
+U0033,Aishwarya Menon,student0033@campusloop.edu,Information Technology,4,2026-07-11,ACTIVE
+U0034,Akash Menon,student0034@campusloop.edu,Biotechnology,3,2026-05-30,ACTIVE
+U0035,Akshay Menon,student0035@campusloop.edu,Civil,2,2025-10-04,ACTIVE
+U0036,Amal Menon,student0036@campusloop.edu,Electronics,1,2026-01-02,ACTIVE
+U0037,Amritha Menon,student0037@campusloop.edu,Chemical Engineering,4,2025-11-07,ACTIVE
+U0038,Ananya Menon,student0038@campusloop.edu,AI & Data Science,3,2026-02-22,ACTIVE
+U0039,Anjali Menon,student0039@campusloop.edu,Electrical,2,2025-12-11,ACTIVE
+U0040,Aparna Menon,student0040@campusloop.edu,Computer Science,1,2025-07-24,ACTIVE
+U0041,Arjun Menon,student0041@campusloop.edu,Architecture,4,2026-04-09,ACTIVE
+U0042,Athira Menon,student0042@campusloop.edu,Mechanical,3,2025-11-11,ACTIVE
+U0043,Devika Menon,student0043@campusloop.edu,Information Technology,2,2026-08-04,ACTIVE
+U0044,Diya Menon,student0044@campusloop.edu,Biotechnology,1,2025-07-21,ACTIVE
+U0045,Fathima Menon,student0045@campusloop.edu,Civil,4,2025-11-17,ACTIVE
+U0046,Gautham Menon,student0046@campusloop.edu,Electronics,3,2026-01-28,ACTIVE
+U0047,Ishaan Menon,student0047@campusloop.edu,Chemical Engineering,2,2025-07-18,ACTIVE
+U0048,Joel Menon,student0048@campusloop.edu,AI & Data Science,1,2025-11-18,ACTIVE
+U0049,Keerthana Menon,student0049@campusloop.edu,Electrical,4,2025-12-16,ACTIVE
+U0050,Krishna Menon,student0050@campusloop.edu,Computer Science,3,2025-07-23,ACTIVE
+U0051,Meera Menon,student0051@campusloop.edu,Architecture,2,2026-03-20,INACTIVE
+U0052,Nandana Menon,student0052@campusloop.edu,Mechanical,1,2026-06-07,ACTIVE
+U0053,Nikhil Menon,student0053@campusloop.edu,Information Technology,4,2026-01-13,ACTIVE
+U0054,Rahul Menon,student0054@campusloop.edu,Biotechnology,3,2026-01-27,ACTIVE
+U0055,Riya Menon,student0055@campusloop.edu,Civil,2,2025-11-29,ACTIVE
+U0056,Rohan Menon,student0056@campusloop.edu,Electronics,1,2026-07-17,ACTIVE
+U0057,Sanjay Menon,student0057@campusloop.edu,Chemical Engineering,4,2026-04-24,ACTIVE
+U0058,Sneha Menon,student0058@campusloop.edu,AI & Data Science,3,2025-07-27,ACTIVE
+U0059,Vishnu Menon,student0059@campusloop.edu,Electrical,2,2026-05-17,ACTIVE
+U0060,Varsha Menon,student0060@campusloop.edu,Computer Science,1,2026-01-06,ACTIVE
+U0061,Aarav Thomas,student0061@campusloop.edu,Architecture,4,2025-07-12,ACTIVE
+U0062,Aditya Thomas,student0062@campusloop.edu,Mechanical,3,2025-11-10,ACTIVE
+U0063,Aishwarya Thomas,student0063@campusloop.edu,Information Technology,2,2026-08-18,ACTIVE
+U0064,Akash Thomas,student0064@campusloop.edu,Biotechnology,1,2026-04-01,ACTIVE
+U0065,Akshay Thomas,student0065@campusloop.edu,Civil,4,2026-04-06,ACTIVE
+U0066,Amal Thomas,student0066@campusloop.edu,Electronics,3,2025-10-07,ACTIVE
+U0067,Amritha Thomas,student0067@campusloop.edu,Chemical Engineering,2,2026-08-13,ACTIVE
+U0068,Ananya Thomas,student0068@campusloop.edu,AI & Data Science,1,2025-08-26,INACTIVE
+U0069,Anjali Thomas,student0069@campusloop.edu,Electrical,4,2025-08-31,ACTIVE
+U0070,Aparna Thomas,student0070@campusloop.edu,Computer Science,3,2026-03-23,ACTIVE
+U0071,Arjun Thomas,student0071@campusloop.edu,Architecture,2,2026-04-27,ACTIVE
+U0072,Athira Thomas,student0072@campusloop.edu,Mechanical,1,2025-08-18,ACTIVE
+U0073,Devika Thomas,student0073@campusloop.edu,Information Technology,4,2026-05-30,ACTIVE
+U0074,Diya Thomas,student0074@campusloop.edu,Biotechnology,3,2026-01-03,ACTIVE
+U0075,Fathima Thomas,student0075@campusloop.edu,Civil,2,2025-07-31,ACTIVE
+U0076,Gautham Thomas,student0076@campusloop.edu,Electronics,1,2026-01-18,ACTIVE
+U0077,Ishaan Thomas,student0077@campusloop.edu,Chemical Engineering,4,2025-08-12,ACTIVE
+U0078,Joel Thomas,student0078@campusloop.edu,AI & Data Science,3,2025-07-18,ACTIVE
+U0079,Keerthana Thomas,student0079@campusloop.edu,Electrical,2,2025-12-19,ACTIVE
+U0080,Krishna Thomas,student0080@campusloop.edu,Computer Science,1,2025-12-27,ACTIVE
+U0081,Meera Thomas,student0081@campusloop.edu,Architecture,4,2025-08-03,ACTIVE
+U0082,Nandana Thomas,student0082@campusloop.edu,Mechanical,3,2025-07-08,ACTIVE
+U0083,Nikhil Thomas,student0083@campusloop.edu,Information Technology,2,2026-04-13,ACTIVE
+U0084,Rahul Thomas,student0084@campusloop.edu,Biotechnology,1,2025-12-17,ACTIVE
+U0085,Riya Thomas,student0085@campusloop.edu,Civil,4,2026-08-10,ACTIVE
+U0086,Rohan Thomas,student0086@campusloop.edu,Electronics,3,2026-04-10,ACTIVE
+U0087,Sanjay Thomas,student0087@campusloop.edu,Chemical Engineering,2,2026-08-12,ACTIVE
+U0088,Sneha Thomas,student0088@campusloop.edu,AI & Data Science,1,2026-01-27,ACTIVE
+U0089,Vishnu Thomas,student0089@campusloop.edu,Electrical,4,2026-05-14,ACTIVE
+U0090,Varsha Thomas,student0090@campusloop.edu,Computer Science,3,2026-04-24,ACTIVE
+U0091,Aarav Krishnan,student0091@campusloop.edu,Architecture,2,2026-04-19,ACTIVE
+U0092,Aditya Krishnan,student0092@campusloop.edu,Mechanical,1,2025-10-30,ACTIVE
+U0093,Aishwarya Krishnan,student0093@campusloop.edu,Information Technology,4,2026-02-17,ACTIVE
+U0094,Akash Krishnan,student0094@campusloop.edu,Biotechnology,3,2026-05-10,ACTIVE
+U0095,Akshay Krishnan,student0095@campusloop.edu,Civil,2,2026-03-27,ACTIVE
+U0096,Amal Krishnan,student0096@campusloop.edu,Electronics,1,2026-02-03,ACTIVE
+U0097,Amritha Krishnan,student0097@campusloop.edu,Chemical Engineering,4,2026-04-19,ACTIVE
+U0098,Ananya Krishnan,student0098@campusloop.edu,AI & Data Science,3,2025-09-13,ACTIVE
+U0099,Anjali Krishnan,student0099@campusloop.edu,Electrical,2,2025-08-31,ACTIVE
+U0100,Aparna Krishnan,student0100@campusloop.edu,Computer Science,1,2025-08-04,ACTIVE
+U0101,Arjun Krishnan,student0101@campusloop.edu,Architecture,4,2026-03-05,ACTIVE
+U0102,Athira Krishnan,student0102@campusloop.edu,Mechanical,3,2025-12-27,ACTIVE
+U0103,Devika Krishnan,student0103@campusloop.edu,Information Technology,2,2026-03-28,ACTIVE
+U0104,Diya Krishnan,student0104@campusloop.edu,Biotechnology,1,2025-10-12,ACTIVE
+U0105,Fathima Krishnan,student0105@campusloop.edu,Civil,4,2026-04-25,ACTIVE
+U0106,Gautham Krishnan,student0106@campusloop.edu,Electronics,3,2026-01-29,ACTIVE
+U0107,Ishaan Krishnan,student0107@campusloop.edu,Chemical Engineering,2,2026-02-06,ACTIVE
+U0108,Joel Krishnan,student0108@campusloop.edu,AI & Data Science,1,2026-08-15,ACTIVE
+U0109,Keerthana Krishnan,student0109@campusloop.edu,Electrical,4,2026-06-15,ACTIVE
+U0110,Krishna Krishnan,student0110@campusloop.edu,Computer Science,3,2026-01-14,ACTIVE
+U0111,Meera Krishnan,student0111@campusloop.edu,Architecture,2,2026-04-23,ACTIVE
+U0112,Nandana Krishnan,student0112@campusloop.edu,Mechanical,1,2025-08-01,ACTIVE
+U0113,Nikhil Krishnan,student0113@campusloop.edu,Information Technology,4,2026-05-08,ACTIVE
+U0114,Rahul Krishnan,student0114@campusloop.edu,Biotechnology,3,2026-02-24,ACTIVE
+U0115,Riya Krishnan,student0115@campusloop.edu,Civil,2,2025-09-22,ACTIVE
+U0116,Rohan Krishnan,student0116@campusloop.edu,Electronics,1,2026-07-04,ACTIVE
+U0117,Sanjay Krishnan,student0117@campusloop.edu,Chemical Engineering,4,2025-09-07,ACTIVE
+U0118,Sneha Krishnan,student0118@campusloop.edu,AI & Data Science,3,2026-03-17,ACTIVE
+U0119,Vishnu Krishnan,student0119@campusloop.edu,Electrical,2,2026-03-16,ACTIVE
+U0120,Varsha Krishnan,student0120@campusloop.edu,Computer Science,1,2026-05-17,ACTIVE
+U0121,Aarav Pillai,student0121@campusloop.edu,Architecture,4,2026-06-24,ACTIVE
+U0122,Aditya Pillai,student0122@campusloop.edu,Mechanical,3,2026-08-18,ACTIVE
+U0123,Aishwarya Pillai,student0123@campusloop.edu,Information Technology,2,2025-10-26,ACTIVE
+U0124,Akash Pillai,student0124@campusloop.edu,Biotechnology,1,2026-07-27,ACTIVE
+U0125,Akshay Pillai,student0125@campusloop.edu,Civil,4,2025-12-19,ACTIVE
+U0126,Amal Pillai,student0126@campusloop.edu,Electronics,3,2025-11-02,ACTIVE
+U0127,Amritha Pillai,student0127@campusloop.edu,Chemical Engineering,2,2026-01-09,INACTIVE
+U0128,Ananya Pillai,student0128@campusloop.edu,AI & Data Science,1,2026-02-02,ACTIVE
+U0129,Anjali Pillai,student0129@campusloop.edu,Electrical,4,2025-10-01,ACTIVE
+U0130,Aparna Pillai,student0130@campusloop.edu,Computer Science,3,2026-01-26,ACTIVE
+U0131,Arjun Pillai,student0131@campusloop.edu,Architecture,2,2025-11-08,ACTIVE
+U0132,Athira Pillai,student0132@campusloop.edu,Mechanical,1,2026-08-13,ACTIVE
+U0133,Devika Pillai,student0133@campusloop.edu,Information Technology,4,2026-07-15,ACTIVE
+U0134,Diya Pillai,student0134@campusloop.edu,Biotechnology,3,2025-10-18,ACTIVE
+U0135,Fathima Pillai,student0135@campusloop.edu,Civil,2,2026-07-03,ACTIVE
+U0136,Gautham Pillai,student0136@campusloop.edu,Electronics,1,2026-08-11,ACTIVE
+U0137,Ishaan Pillai,student0137@campusloop.edu,Chemical Engineering,4,2025-08-22,ACTIVE
+U0138,Joel Pillai,student0138@campusloop.edu,AI & Data Science,3,2026-04-03,ACTIVE
+U0139,Keerthana Pillai,student0139@campusloop.edu,Electrical,2,2026-07-25,ACTIVE
+U0140,Krishna Pillai,student0140@campusloop.edu,Computer Science,1,2026-05-24,INACTIVE
+U0141,Meera Pillai,student0141@campusloop.edu,Architecture,4,2026-03-22,ACTIVE
+U0142,Nandana Pillai,student0142@campusloop.edu,Mechanical,3,2026-02-23,ACTIVE
+U0143,Nikhil Pillai,student0143@campusloop.edu,Information Technology,2,2025-12-29,ACTIVE
+U0144,Rahul Pillai,student0144@campusloop.edu,Biotechnology,1,2025-08-27,ACTIVE
+U0145,Riya Pillai,student0145@campusloop.edu,Civil,4,2026-07-22,ACTIVE
+U0146,Rohan Pillai,student0146@campusloop.edu,Electronics,3,2025-10-14,ACTIVE
+U0147,Sanjay Pillai,student0147@campusloop.edu,Chemical Engineering,2,2026-05-28,ACTIVE
+U0148,Sneha Pillai,student0148@campusloop.edu,AI & Data Science,1,2025-09-12,ACTIVE
+U0149,Vishnu Pillai,student0149@campusloop.edu,Electrical,4,2026-01-25,ACTIVE
+U0150,Varsha Pillai,student0150@campusloop.edu,Computer Science,3,2026-04-11,ACTIVE
+U0151,Aarav George,student0151@campusloop.edu,Architecture,2,2026-01-22,ACTIVE
+U0152,Aditya George,student0152@campusloop.edu,Mechanical,1,2026-05-09,ACTIVE
+U0153,Aishwarya George,student0153@campusloop.edu,Information Technology,4,2025-09-30,ACTIVE
+U0154,Akash George,student0154@campusloop.edu,Biotechnology,3,2025-08-22,ACTIVE
+U0155,Akshay George,student0155@campusloop.edu,Civil,2,2026-07-07,ACTIVE
+U0156,Amal George,student0156@campusloop.edu,Electronics,1,2026-01-24,ACTIVE
+U0157,Amritha George,student0157@campusloop.edu,Chemical Engineering,4,2026-04-30,ACTIVE
+U0158,Ananya George,student0158@campusloop.edu,AI & Data Science,3,2026-08-23,ACTIVE
+U0159,Anjali George,student0159@campusloop.edu,Electrical,2,2026-08-11,ACTIVE
+U0160,Aparna George,student0160@campusloop.edu,Computer Science,1,2025-10-13,ACTIVE
+U0161,Arjun George,student0161@campusloop.edu,Architecture,4,2025-07-09,ACTIVE
+U0162,Athira George,student0162@campusloop.edu,Mechanical,3,2026-01-26,ACTIVE
+U0163,Devika George,student0163@campusloop.edu,Information Technology,2,2025-10-31,ACTIVE
+U0164,Diya George,student0164@campusloop.edu,Biotechnology,1,2026-03-05,ACTIVE
+U0165,Fathima George,student0165@campusloop.edu,Civil,4,2026-02-28,ACTIVE
+U0166,Gautham George,student0166@campusloop.edu,Electronics,3,2026-05-15,ACTIVE
+U0167,Ishaan George,student0167@campusloop.edu,Chemical Engineering,2,2026-02-13,ACTIVE
+U0168,Joel George,student0168@campusloop.edu,AI & Data Science,1,2025-10-05,ACTIVE
+U0169,Keerthana George,student0169@campusloop.edu,Electrical,4,2026-07-04,ACTIVE
+U0170,Krishna George,student0170@campusloop.edu,Computer Science,3,2026-05-04,ACTIVE
+U0171,Meera George,student0171@campusloop.edu,Architecture,2,2026-05-09,ACTIVE
+U0172,Nandana George,student0172@campusloop.edu,Mechanical,1,2026-07-18,ACTIVE
+U0173,Nikhil George,student0173@campusloop.edu,Information Technology,4,2026-04-24,ACTIVE
+U0174,Rahul George,student0174@campusloop.edu,Biotechnology,3,2026-05-19,ACTIVE
+U0175,Riya George,student0175@campusloop.edu,Civil,2,2026-05-04,ACTIVE
+U0176,Rohan George,student0176@campusloop.edu,Electronics,1,2025-11-26,ACTIVE
+U0177,Sanjay George,student0177@campusloop.edu,Chemical Engineering,4,2025-08-14,ACTIVE
+U0178,Sneha George,student0178@campusloop.edu,AI & Data Science,3,2025-12-14,ACTIVE
+U0179,Vishnu George,student0179@campusloop.edu,Electrical,2,2025-09-05,ACTIVE
+U0180,Varsha George,student0180@campusloop.edu,Computer Science,1,2025-07-04,ACTIVE
+U0181,Aarav Mathew,student0181@campusloop.edu,Architecture,4,2026-06-17,ACTIVE
+U0182,Aditya Mathew,student0182@campusloop.edu,Mechanical,3,2026-01-29,ACTIVE
+U0183,Aishwarya Mathew,student0183@campusloop.edu,Information Technology,2,2026-04-14,ACTIVE
+U0184,Akash Mathew,student0184@campusloop.edu,Biotechnology,1,2025-08-03,ACTIVE
+U0185,Akshay Mathew,student0185@campusloop.edu,Civil,4,2026-07-09,ACTIVE
+U0186,Amal Mathew,student0186@campusloop.edu,Electronics,3,2026-04-15,ACTIVE
+U0187,Amritha Mathew,student0187@campusloop.edu,Chemical Engineering,2,2026-06-15,ACTIVE
+U0188,Ananya Mathew,student0188@campusloop.edu,AI & Data Science,1,2026-04-12,ACTIVE
+U0189,Anjali Mathew,student0189@campusloop.edu,Electrical,4,2025-11-08,ACTIVE
+U0190,Aparna Mathew,student0190@campusloop.edu,Computer Science,3,2025-08-18,ACTIVE
+U0191,Arjun Mathew,student0191@campusloop.edu,Architecture,2,2026-02-01,ACTIVE
+U0192,Athira Mathew,student0192@campusloop.edu,Mechanical,1,2025-08-07,ACTIVE
+U0193,Devika Mathew,student0193@campusloop.edu,Information Technology,4,2025-09-24,INACTIVE
+U0194,Diya Mathew,student0194@campusloop.edu,Biotechnology,3,2026-08-17,INACTIVE
+U0195,Fathima Mathew,student0195@campusloop.edu,Civil,2,2026-04-27,ACTIVE
+U0196,Gautham Mathew,student0196@campusloop.edu,Electronics,1,2026-06-09,ACTIVE
+U0197,Ishaan Mathew,student0197@campusloop.edu,Chemical Engineering,4,2026-06-14,ACTIVE
+U0198,Joel Mathew,student0198@campusloop.edu,AI & Data Science,3,2025-09-09,ACTIVE
+U0199,Keerthana Mathew,student0199@campusloop.edu,Electrical,2,2026-04-26,ACTIVE
+U0200,Krishna Mathew,student0200@campusloop.edu,Computer Science,1,2026-02-27,ACTIVE
+U0201,Meera Mathew,student0201@campusloop.edu,Architecture,4,2026-08-15,ACTIVE
+U0202,Nandana Mathew,student0202@campusloop.edu,Mechanical,3,2025-11-03,ACTIVE
+U0203,Nikhil Mathew,student0203@campusloop.edu,Information Technology,2,2026-03-13,ACTIVE
+U0204,Rahul Mathew,student0204@campusloop.edu,Biotechnology,1,2026-03-14,ACTIVE
+U0205,Riya Mathew,student0205@campusloop.edu,Civil,4,2026-06-23,ACTIVE
+U0206,Rohan Mathew,student0206@campusloop.edu,Electronics,3,2025-08-08,ACTIVE
+U0207,Sanjay Mathew,student0207@campusloop.edu,Chemical Engineering,2,2026-07-16,ACTIVE
+U0208,Sneha Mathew,student0208@campusloop.edu,AI & Data Science,1,2025-07-15,ACTIVE
+U0209,Vishnu Mathew,student0209@campusloop.edu,Electrical,4,2026-06-22,ACTIVE
+U0210,Varsha Mathew,student0210@campusloop.edu,Computer Science,3,2026-03-30,ACTIVE
+U0211,Aarav Kumar,student0211@campusloop.edu,Architecture,2,2026-02-26,ACTIVE
+U0212,Aditya Kumar,student0212@campusloop.edu,Mechanical,1,2025-11-05,ACTIVE
+U0213,Aishwarya Kumar,student0213@campusloop.edu,Information Technology,4,2025-08-06,ACTIVE
+U0214,Akash Kumar,student0214@campusloop.edu,Biotechnology,3,2026-07-21,ACTIVE
+U0215,Akshay Kumar,student0215@campusloop.edu,Civil,2,2026-01-18,ACTIVE
+U0216,Amal Kumar,student0216@campusloop.edu,Electronics,1,2026-05-15,ACTIVE
+U0217,Amritha Kumar,student0217@campusloop.edu,Chemical Engineering,4,2025-11-20,ACTIVE
+U0218,Ananya Kumar,student0218@campusloop.edu,AI & Data Science,3,2026-06-03,INACTIVE
+U0219,Anjali Kumar,student0219@campusloop.edu,Electrical,2,2026-05-27,ACTIVE
+U0220,Aparna Kumar,student0220@campusloop.edu,Computer Science,1,2025-08-02,ACTIVE
+U0221,Arjun Kumar,student0221@campusloop.edu,Architecture,4,2026-08-08,ACTIVE
+U0222,Athira Kumar,student0222@campusloop.edu,Mechanical,3,2026-03-13,INACTIVE
+U0223,Devika Kumar,student0223@campusloop.edu,Information Technology,2,2025-09-19,ACTIVE
+U0224,Diya Kumar,student0224@campusloop.edu,Biotechnology,1,2026-05-18,ACTIVE
+U0225,Fathima Kumar,student0225@campusloop.edu,Civil,4,2026-07-25,ACTIVE
+U0226,Gautham Kumar,student0226@campusloop.edu,Electronics,3,2026-03-19,ACTIVE
+U0227,Ishaan Kumar,student0227@campusloop.edu,Chemical Engineering,2,2025-08-05,ACTIVE
+U0228,Joel Kumar,student0228@campusloop.edu,AI & Data Science,1,2026-05-14,ACTIVE
+U0229,Keerthana Kumar,student0229@campusloop.edu,Electrical,4,2026-06-15,ACTIVE
+U0230,Krishna Kumar,student0230@campusloop.edu,Computer Science,3,2026-08-25,ACTIVE
+U0231,Meera Kumar,student0231@campusloop.edu,Architecture,2,2025-10-23,ACTIVE
+U0232,Nandana Kumar,student0232@campusloop.edu,Mechanical,1,2025-09-08,ACTIVE
+U0233,Nikhil Kumar,student0233@campusloop.edu,Information Technology,4,2025-12-10,ACTIVE
+U0234,Rahul Kumar,student0234@campusloop.edu,Biotechnology,3,2026-06-30,ACTIVE
+U0235,Riya Kumar,student0235@campusloop.edu,Civil,2,2026-02-04,ACTIVE
+U0236,Rohan Kumar,student0236@campusloop.edu,Electronics,1,2026-05-28,ACTIVE
+U0237,Sanjay Kumar,student0237@campusloop.edu,Chemical Engineering,4,2026-04-18,ACTIVE
+U0238,Sneha Kumar,student0238@campusloop.edu,AI & Data Science,3,2025-08-05,ACTIVE
+U0239,Vishnu Kumar,student0239@campusloop.edu,Electrical,2,2025-08-19,ACTIVE
+U0240,Varsha Kumar,student0240@campusloop.edu,Computer Science,1,2026-07-14,ACTIVE
+U0241,Aarav Das,student0241@campusloop.edu,Architecture,4,2025-11-28,ACTIVE
+U0242,Aditya Das,student0242@campusloop.edu,Mechanical,3,2026-08-17,ACTIVE
+U0243,Aishwarya Das,student0243@campusloop.edu,Information Technology,2,2025-07-18,ACTIVE
+U0244,Akash Das,student0244@campusloop.edu,Biotechnology,1,2025-11-20,ACTIVE
+U0245,Akshay Das,student0245@campusloop.edu,Civil,4,2025-11-10,ACTIVE
+U0246,Amal Das,student0246@campusloop.edu,Electronics,3,2026-01-10,ACTIVE
+U0247,Amritha Das,student0247@campusloop.edu,Chemical Engineering,2,2026-04-12,ACTIVE
+U0248,Ananya Das,student0248@campusloop.edu,AI & Data Science,1,2025-10-08,ACTIVE
+U0249,Anjali Das,student0249@campusloop.edu,Electrical,4,2026-08-16,ACTIVE
+U0250,Aparna Das,student0250@campusloop.edu,Computer Science,3,2026-04-28,ACTIVE
+U0251,Arjun Das,student0251@campusloop.edu,Architecture,2,2025-07-04,ACTIVE
+U0252,Athira Das,student0252@campusloop.edu,Mechanical,1,2026-07-15,ACTIVE
+U0253,Devika Das,student0253@campusloop.edu,Information Technology,4,2026-04-01,ACTIVE
+U0254,Diya Das,student0254@campusloop.edu,Biotechnology,3,2025-12-09,ACTIVE
+U0255,Fathima Das,student0255@campusloop.edu,Civil,2,2026-07-14,ACTIVE
+U0256,Gautham Das,student0256@campusloop.edu,Electronics,1,2026-08-13,ACTIVE
+U0257,Ishaan Das,student0257@campusloop.edu,Chemical Engineering,4,2025-11-16,INACTIVE
+U0258,Joel Das,student0258@campusloop.edu,AI & Data Science,3,2026-01-15,ACTIVE
+U0259,Keerthana Das,student0259@campusloop.edu,Electrical,2,2026-02-13,ACTIVE
+U0260,Krishna Das,student0260@campusloop.edu,Computer Science,1,2026-03-18,ACTIVE
+U0261,Meera Das,student0261@campusloop.edu,Architecture,4,2025-10-24,ACTIVE
+U0262,Nandana Das,student0262@campusloop.edu,Mechanical,3,2026-05-05,ACTIVE
+U0263,Nikhil Das,student0263@campusloop.edu,Information Technology,2,2026-02-18,ACTIVE
+U0264,Rahul Das,student0264@campusloop.edu,Biotechnology,1,2026-07-19,ACTIVE
+U0265,Riya Das,student0265@campusloop.edu,Civil,4,2026-01-01,ACTIVE
+U0266,Rohan Das,student0266@campusloop.edu,Electronics,3,2025-08-20,ACTIVE
+U0267,Sanjay Das,student0267@campusloop.edu,Chemical Engineering,2,2025-09-23,ACTIVE
+U0268,Sneha Das,student0268@campusloop.edu,AI & Data Science,1,2026-06-15,ACTIVE
+U0269,Vishnu Das,student0269@campusloop.edu,Electrical,4,2025-09-04,ACTIVE
+U0270,Varsha Das,student0270@campusloop.edu,Computer Science,3,2025-12-01,ACTIVE
+U0271,Aarav Babu,student0271@campusloop.edu,Architecture,2,2026-03-24,ACTIVE
+U0272,Aditya Babu,student0272@campusloop.edu,Mechanical,1,2025-10-11,ACTIVE
+U0273,Aishwarya Babu,student0273@campusloop.edu,Information Technology,4,2026-04-25,ACTIVE
+U0274,Akash Babu,student0274@campusloop.edu,Biotechnology,3,2026-05-04,ACTIVE
+U0275,Akshay Babu,student0275@campusloop.edu,Civil,2,2026-01-02,ACTIVE
+U0276,Amal Babu,student0276@campusloop.edu,Electronics,1,2025-09-05,ACTIVE
+U0277,Amritha Babu,student0277@campusloop.edu,Chemical Engineering,4,2025-11-11,ACTIVE
+U0278,Ananya Babu,student0278@campusloop.edu,AI & Data Science,3,2026-01-25,ACTIVE
+U0279,Anjali Babu,student0279@campusloop.edu,Electrical,2,2025-08-01,ACTIVE
+U0280,Aparna Babu,student0280@campusloop.edu,Computer Science,1,2026-06-02,ACTIVE
+U0281,Arjun Babu,student0281@campusloop.edu,Architecture,4,2025-09-09,ACTIVE
+U0282,Athira Babu,student0282@campusloop.edu,Mechanical,3,2025-10-28,ACTIVE
+U0283,Devika Babu,student0283@campusloop.edu,Information Technology,2,2025-12-29,ACTIVE
+U0284,Diya Babu,student0284@campusloop.edu,Biotechnology,1,2025-11-15,ACTIVE
+U0285,Fathima Babu,student0285@campusloop.edu,Civil,4,2025-12-04,ACTIVE
+U0286,Gautham Babu,student0286@campusloop.edu,Electronics,3,2026-07-08,ACTIVE
+U0287,Ishaan Babu,student0287@campusloop.edu,Chemical Engineering,2,2025-09-16,ACTIVE
+U0288,Joel Babu,student0288@campusloop.edu,AI & Data Science,1,2026-02-16,ACTIVE
+U0289,Keerthana Babu,student0289@campusloop.edu,Electrical,4,2025-11-24,ACTIVE
+U0290,Krishna Babu,student0290@campusloop.edu,Computer Science,3,2026-01-31,ACTIVE
+U0291,Meera Babu,student0291@campusloop.edu,Architecture,2,2025-12-13,ACTIVE
+U0292,Nandana Babu,student0292@campusloop.edu,Mechanical,1,2025-10-16,ACTIVE
+U0293,Nikhil Babu,student0293@campusloop.edu,Information Technology,4,2026-01-23,ACTIVE
+U0294,Rahul Babu,student0294@campusloop.edu,Biotechnology,3,2026-01-01,ACTIVE
+U0295,Riya Babu,student0295@campusloop.edu,Civil,2,2026-01-31,ACTIVE
+U0296,Rohan Babu,student0296@campusloop.edu,Electronics,1,2025-12-05,ACTIVE
+U0297,Sanjay Babu,student0297@campusloop.edu,Chemical Engineering,4,2025-08-18,ACTIVE
+U0298,Sneha Babu,student0298@campusloop.edu,AI & Data Science,3,2025-09-30,ACTIVE
+U0299,Vishnu Babu,student0299@campusloop.edu,Electrical,2,2025-11-29,ACTIVE
+U0300,Varsha Babu,student0300@campusloop.edu,Computer Science,1,2025-11-01,ACTIVE
+U0301,Aarav Mohan,student0301@campusloop.edu,Architecture,4,2026-02-26,ACTIVE
+U0302,Aditya Mohan,student0302@campusloop.edu,Mechanical,3,2026-01-14,ACTIVE
+U0303,Aishwarya Mohan,student0303@campusloop.edu,Information Technology,2,2025-08-01,ACTIVE
+U0304,Akash Mohan,student0304@campusloop.edu,Biotechnology,1,2025-09-21,ACTIVE
+U0305,Akshay Mohan,student0305@campusloop.edu,Civil,4,2026-04-03,ACTIVE
+U0306,Amal Mohan,student0306@campusloop.edu,Electronics,3,2026-03-16,ACTIVE
+U0307,Amritha Mohan,student0307@campusloop.edu,Chemical Engineering,2,2025-12-31,ACTIVE
+U0308,Ananya Mohan,student0308@campusloop.edu,AI & Data Science,1,2025-08-29,ACTIVE
+U0309,Anjali Mohan,student0309@campusloop.edu,Electrical,4,2026-06-01,ACTIVE
+U0310,Aparna Mohan,student0310@campusloop.edu,Computer Science,3,2026-01-14,ACTIVE
+U0311,Arjun Mohan,student0311@campusloop.edu,Architecture,2,2025-11-23,ACTIVE
+U0312,Athira Mohan,student0312@campusloop.edu,Mechanical,1,2026-03-05,ACTIVE
+U0313,Devika Mohan,student0313@campusloop.edu,Information Technology,4,2025-10-20,ACTIVE
+U0314,Diya Mohan,student0314@campusloop.edu,Biotechnology,3,2026-06-03,ACTIVE
+U0315,Fathima Mohan,student0315@campusloop.edu,Civil,2,2025-07-20,ACTIVE
+U0316,Gautham Mohan,student0316@campusloop.edu,Electronics,1,2025-07-23,ACTIVE
+U0317,Ishaan Mohan,student0317@campusloop.edu,Chemical Engineering,4,2025-08-29,ACTIVE
+U0318,Joel Mohan,student0318@campusloop.edu,AI & Data Science,3,2026-01-15,ACTIVE
+U0319,Keerthana Mohan,student0319@campusloop.edu,Electrical,2,2026-02-21,ACTIVE
+U0320,Krishna Mohan,student0320@campusloop.edu,Computer Science,1,2025-10-23,ACTIVE
+U0321,Meera Mohan,student0321@campusloop.edu,Architecture,4,2026-06-15,ACTIVE
+U0322,Nandana Mohan,student0322@campusloop.edu,Mechanical,3,2025-10-17,ACTIVE
+U0323,Nikhil Mohan,student0323@campusloop.edu,Information Technology,2,2025-08-30,ACTIVE
+U0324,Rahul Mohan,student0324@campusloop.edu,Biotechnology,1,2026-05-29,ACTIVE
+U0325,Riya Mohan,student0325@campusloop.edu,Civil,4,2026-01-24,ACTIVE
+U0326,Rohan Mohan,student0326@campusloop.edu,Electronics,3,2026-02-28,ACTIVE
+U0327,Sanjay Mohan,student0327@campusloop.edu,Chemical Engineering,2,2025-08-29,ACTIVE
+U0328,Sneha Mohan,student0328@campusloop.edu,AI & Data Science,1,2026-05-10,ACTIVE
+U0329,Vishnu Mohan,student0329@campusloop.edu,Electrical,4,2025-07-02,ACTIVE
+U0330,Varsha Mohan,student0330@campusloop.edu,Computer Science,3,2026-04-23,ACTIVE
+U0331,Aarav Joseph,student0331@campusloop.edu,Architecture,2,2026-03-16,ACTIVE
+U0332,Aditya Joseph,student0332@campusloop.edu,Mechanical,1,2026-07-07,ACTIVE
+U0333,Aishwarya Joseph,student0333@campusloop.edu,Information Technology,4,2026-06-28,ACTIVE
+U0334,Akash Joseph,student0334@campusloop.edu,Biotechnology,3,2026-04-26,ACTIVE
+U0335,Akshay Joseph,student0335@campusloop.edu,Civil,2,2026-04-15,ACTIVE
+U0336,Amal Joseph,student0336@campusloop.edu,Electronics,1,2025-11-17,ACTIVE
+U0337,Amritha Joseph,student0337@campusloop.edu,Chemical Engineering,4,2026-06-21,ACTIVE
+U0338,Ananya Joseph,student0338@campusloop.edu,AI & Data Science,3,2026-08-12,ACTIVE
+U0339,Anjali Joseph,student0339@campusloop.edu,Electrical,2,2025-07-29,ACTIVE
+U0340,Aparna Joseph,student0340@campusloop.edu,Computer Science,1,2025-09-20,ACTIVE
+U0341,Arjun Joseph,student0341@campusloop.edu,Architecture,4,2025-12-14,ACTIVE
+U0342,Athira Joseph,student0342@campusloop.edu,Mechanical,3,2026-05-29,ACTIVE
+U0343,Devika Joseph,student0343@campusloop.edu,Information Technology,2,2026-01-02,ACTIVE
+U0344,Diya Joseph,student0344@campusloop.edu,Biotechnology,1,2026-01-09,ACTIVE
+U0345,Fathima Joseph,student0345@campusloop.edu,Civil,4,2026-02-05,ACTIVE
+U0346,Gautham Joseph,student0346@campusloop.edu,Electronics,3,2026-05-24,ACTIVE
+U0347,Ishaan Joseph,student0347@campusloop.edu,Chemical Engineering,2,2025-12-19,ACTIVE
+U0348,Joel Joseph,student0348@campusloop.edu,AI & Data Science,1,2026-04-06,ACTIVE
+U0349,Keerthana Joseph,student0349@campusloop.edu,Electrical,4,2026-01-13,ACTIVE
+U0350,Krishna Joseph,student0350@campusloop.edu,Computer Science,3,2025-07-24,ACTIVE
+U0351,Meera Joseph,student0351@campusloop.edu,Architecture,2,2026-05-29,ACTIVE
+U0352,Nandana Joseph,student0352@campusloop.edu,Mechanical,1,2026-01-03,ACTIVE
+U0353,Nikhil Joseph,student0353@campusloop.edu,Information Technology,4,2026-08-17,ACTIVE
+U0354,Rahul Joseph,student0354@campusloop.edu,Biotechnology,3,2026-07-17,ACTIVE
+U0355,Riya Joseph,student0355@campusloop.edu,Civil,2,2026-04-06,ACTIVE
+U0356,Rohan Joseph,student0356@campusloop.edu,Electronics,1,2026-08-12,ACTIVE
+U0357,Sanjay Joseph,student0357@campusloop.edu,Chemical Engineering,4,2026-03-05,ACTIVE
+U0358,Sneha Joseph,student0358@campusloop.edu,AI & Data Science,3,2025-07-10,ACTIVE
+U0359,Vishnu Joseph,student0359@campusloop.edu,Electrical,2,2025-10-19,ACTIVE
+U0360,Varsha Joseph,student0360@campusloop.edu,Computer Science,1,2025-11-17,ACTIVE
+U0361,Aarav Varma,student0361@campusloop.edu,Architecture,4,2025-08-18,ACTIVE
+U0362,Aditya Varma,student0362@campusloop.edu,Mechanical,3,2025-11-11,ACTIVE
+U0363,Aishwarya Varma,student0363@campusloop.edu,Information Technology,2,2026-07-21,ACTIVE
+U0364,Akash Varma,student0364@campusloop.edu,Biotechnology,1,2026-08-05,ACTIVE
+U0365,Akshay Varma,student0365@campusloop.edu,Civil,4,2026-02-10,ACTIVE
+U0366,Amal Varma,student0366@campusloop.edu,Electronics,3,2025-08-24,ACTIVE
+U0367,Amritha Varma,student0367@campusloop.edu,Chemical Engineering,2,2026-02-04,ACTIVE
+U0368,Ananya Varma,student0368@campusloop.edu,AI & Data Science,1,2026-08-08,ACTIVE
+U0369,Anjali Varma,student0369@campusloop.edu,Electrical,4,2026-05-14,ACTIVE
+U0370,Aparna Varma,student0370@campusloop.edu,Computer Science,3,2025-11-15,ACTIVE
+U0371,Arjun Varma,student0371@campusloop.edu,Architecture,2,2026-04-21,ACTIVE
+U0372,Athira Varma,student0372@campusloop.edu,Mechanical,1,2025-09-13,ACTIVE
+U0373,Devika Varma,student0373@campusloop.edu,Information Technology,4,2025-07-25,ACTIVE
+U0374,Diya Varma,student0374@campusloop.edu,Biotechnology,3,2025-08-02,ACTIVE
+U0375,Fathima Varma,student0375@campusloop.edu,Civil,2,2025-07-02,ACTIVE
+U0376,Gautham Varma,student0376@campusloop.edu,Electronics,1,2025-07-25,ACTIVE
+U0377,Ishaan Varma,student0377@campusloop.edu,Chemical Engineering,4,2026-02-06,ACTIVE
+U0378,Joel Varma,student0378@campusloop.edu,AI & Data Science,3,2026-04-02,ACTIVE
+U0379,Keerthana Varma,student0379@campusloop.edu,Electrical,2,2026-07-21,ACTIVE
+U0380,Krishna Varma,student0380@campusloop.edu,Computer Science,1,2026-08-20,ACTIVE
+U0381,Meera Varma,student0381@campusloop.edu,Architecture,4,2025-09-11,ACTIVE
+U0382,Nandana Varma,student0382@campusloop.edu,Mechanical,3,2026-03-18,ACTIVE
+U0383,Nikhil Varma,student0383@campusloop.edu,Information Technology,2,2025-11-20,ACTIVE
+U0384,Rahul Varma,student0384@campusloop.edu,Biotechnology,1,2026-03-10,ACTIVE
+U0385,Riya Varma,student0385@campusloop.edu,Civil,4,2025-11-25,ACTIVE
+U0386,Rohan Varma,student0386@campusloop.edu,Electronics,3,2026-05-03,ACTIVE
+U0387,Sanjay Varma,student0387@campusloop.edu,Chemical Engineering,2,2026-01-08,ACTIVE
+U0388,Sneha Varma,student0388@campusloop.edu,AI & Data Science,1,2025-12-18,ACTIVE
+U0389,Vishnu Varma,student0389@campusloop.edu,Electrical,4,2025-09-20,ACTIVE
+U0390,Varsha Varma,student0390@campusloop.edu,Computer Science,3,2025-12-25,ACTIVE
+U0391,Aarav Suresh,student0391@campusloop.edu,Architecture,2,2025-12-22,ACTIVE
+U0392,Aditya Suresh,student0392@campusloop.edu,Mechanical,1,2026-04-22,ACTIVE
+U0393,Aishwarya Suresh,student0393@campusloop.edu,Information Technology,4,2026-06-19,ACTIVE
+U0394,Akash Suresh,student0394@campusloop.edu,Biotechnology,3,2025-08-28,INACTIVE
+U0395,Akshay Suresh,student0395@campusloop.edu,Civil,2,2026-03-03,ACTIVE
+U0396,Amal Suresh,student0396@campusloop.edu,Electronics,1,2026-08-15,INACTIVE
+U0397,Amritha Suresh,student0397@campusloop.edu,Chemical Engineering,4,2026-08-19,ACTIVE
+U0398,Ananya Suresh,student0398@campusloop.edu,AI & Data Science,3,2025-09-09,ACTIVE
+U0399,Anjali Suresh,student0399@campusloop.edu,Electrical,2,2026-05-12,ACTIVE
+U0400,Aparna Suresh,student0400@campusloop.edu,Computer Science,1,2026-02-21,ACTIVE
+U0401,Arjun Suresh,student0401@campusloop.edu,Architecture,4,2025-07-06,ACTIVE
+U0402,Athira Suresh,student0402@campusloop.edu,Mechanical,3,2026-04-13,ACTIVE
+U0403,Devika Suresh,student0403@campusloop.edu,Information Technology,2,2026-07-24,ACTIVE
+U0404,Diya Suresh,student0404@campusloop.edu,Biotechnology,1,2025-10-01,ACTIVE
+U0405,Fathima Suresh,student0405@campusloop.edu,Civil,4,2025-10-23,ACTIVE
+U0406,Gautham Suresh,student0406@campusloop.edu,Electronics,3,2026-03-31,ACTIVE
+U0407,Ishaan Suresh,student0407@campusloop.edu,Chemical Engineering,2,2026-08-14,ACTIVE
+U0408,Joel Suresh,student0408@campusloop.edu,AI & Data Science,1,2026-07-19,ACTIVE
+U0409,Keerthana Suresh,student0409@campusloop.edu,Electrical,4,2026-07-12,ACTIVE
+U0410,Krishna Suresh,student0410@campusloop.edu,Computer Science,3,2026-02-01,ACTIVE
+U0411,Meera Suresh,student0411@campusloop.edu,Architecture,2,2026-08-05,ACTIVE
+U0412,Nandana Suresh,student0412@campusloop.edu,Mechanical,1,2026-07-05,ACTIVE
+U0413,Nikhil Suresh,student0413@campusloop.edu,Information Technology,4,2026-04-13,ACTIVE
+U0414,Rahul Suresh,student0414@campusloop.edu,Biotechnology,3,2025-07-03,ACTIVE
+U0415,Riya Suresh,student0415@campusloop.edu,Civil,2,2025-11-17,ACTIVE
+U0416,Rohan Suresh,student0416@campusloop.edu,Electronics,1,2026-06-01,INACTIVE
+U0417,Sanjay Suresh,student0417@campusloop.edu,Chemical Engineering,4,2025-08-22,INACTIVE
+U0418,Sneha Suresh,student0418@campusloop.edu,AI & Data Science,3,2026-07-10,ACTIVE
+U0419,Vishnu Suresh,student0419@campusloop.edu,Electrical,2,2026-03-11,ACTIVE
+U0420,Varsha Suresh,student0420@campusloop.edu,Computer Science,1,2025-11-09,ACTIVE
+U0421,Aarav Prasad,student0421@campusloop.edu,Architecture,4,2025-08-16,ACTIVE
+U0422,Aditya Prasad,student0422@campusloop.edu,Mechanical,3,2025-08-15,ACTIVE
+U0423,Aishwarya Prasad,student0423@campusloop.edu,Information Technology,2,2026-02-28,ACTIVE
+U0424,Akash Prasad,student0424@campusloop.edu,Biotechnology,1,2025-09-30,ACTIVE
+U0425,Akshay Prasad,student0425@campusloop.edu,Civil,4,2026-03-09,ACTIVE
+U0426,Amal Prasad,student0426@campusloop.edu,Electronics,3,2026-06-05,ACTIVE
+U0427,Amritha Prasad,student0427@campusloop.edu,Chemical Engineering,2,2025-08-14,ACTIVE
+U0428,Ananya Prasad,student0428@campusloop.edu,AI & Data Science,1,2025-10-28,ACTIVE
+U0429,Anjali Prasad,student0429@campusloop.edu,Electrical,4,2025-12-15,ACTIVE
+U0430,Aparna Prasad,student0430@campusloop.edu,Computer Science,3,2026-02-24,ACTIVE
+U0431,Arjun Prasad,student0431@campusloop.edu,Architecture,2,2025-08-27,ACTIVE
+U0432,Athira Prasad,student0432@campusloop.edu,Mechanical,1,2026-08-13,ACTIVE
+U0433,Devika Prasad,student0433@campusloop.edu,Information Technology,4,2026-05-21,ACTIVE
+U0434,Diya Prasad,student0434@campusloop.edu,Biotechnology,3,2026-03-13,ACTIVE
+U0435,Fathima Prasad,student0435@campusloop.edu,Civil,2,2025-07-01,ACTIVE
+U0436,Gautham Prasad,student0436@campusloop.edu,Electronics,1,2025-07-18,ACTIVE
+U0437,Ishaan Prasad,student0437@campusloop.edu,Chemical Engineering,4,2025-07-30,ACTIVE
+U0438,Joel Prasad,student0438@campusloop.edu,AI & Data Science,3,2026-06-14,ACTIVE
+U0439,Keerthana Prasad,student0439@campusloop.edu,Electrical,2,2025-09-17,ACTIVE
+U0440,Krishna Prasad,student0440@campusloop.edu,Computer Science,1,2026-07-24,ACTIVE
+U0441,Meera Prasad,student0441@campusloop.edu,Architecture,4,2026-04-10,ACTIVE
+U0442,Nandana Prasad,student0442@campusloop.edu,Mechanical,3,2026-04-23,ACTIVE
+U0443,Nikhil Prasad,student0443@campusloop.edu,Information Technology,2,2026-05-12,ACTIVE
+U0444,Rahul Prasad,student0444@campusloop.edu,Biotechnology,1,2025-12-17,ACTIVE
+U0445,Riya Prasad,student0445@campusloop.edu,Civil,4,2025-09-20,ACTIVE
+U0446,Rohan Prasad,student0446@campusloop.edu,Electronics,3,2025-07-09,ACTIVE
+U0447,Sanjay Prasad,student0447@campusloop.edu,Chemical Engineering,2,2026-08-21,ACTIVE
+U0448,Sneha Prasad,student0448@campusloop.edu,AI & Data Science,1,2025-12-30,ACTIVE
+U0449,Vishnu Prasad,student0449@campusloop.edu,Electrical,4,2026-05-18,ACTIVE
+U0450,Varsha Prasad,student0450@campusloop.edu,Computer Science,3,2025-11-30,ACTIVE
+U0451,Aarav Raj,student0451@campusloop.edu,Architecture,2,2026-01-08,ACTIVE
+U0452,Aditya Raj,student0452@campusloop.edu,Mechanical,1,2025-12-25,ACTIVE
+U0453,Aishwarya Raj,student0453@campusloop.edu,Information Technology,4,2025-12-10,ACTIVE
+U0454,Akash Raj,student0454@campusloop.edu,Biotechnology,3,2026-08-01,ACTIVE
+U0455,Akshay Raj,student0455@campusloop.edu,Civil,2,2026-03-02,ACTIVE
+U0456,Amal Raj,student0456@campusloop.edu,Electronics,1,2026-05-13,INACTIVE
+U0457,Amritha Raj,student0457@campusloop.edu,Chemical Engineering,4,2026-07-09,ACTIVE
+U0458,Ananya Raj,student0458@campusloop.edu,AI & Data Science,3,2025-10-23,ACTIVE
+U0459,Anjali Raj,student0459@campusloop.edu,Electrical,2,2026-04-26,ACTIVE
+U0460,Aparna Raj,student0460@campusloop.edu,Computer Science,1,2026-02-10,ACTIVE
+U0461,Arjun Raj,student0461@campusloop.edu,Architecture,4,2026-05-23,ACTIVE
+U0462,Athira Raj,student0462@campusloop.edu,Mechanical,3,2026-06-10,INACTIVE
+U0463,Devika Raj,student0463@campusloop.edu,Information Technology,2,2025-12-29,ACTIVE
+U0464,Diya Raj,student0464@campusloop.edu,Biotechnology,1,2026-03-05,ACTIVE
+U0465,Fathima Raj,student0465@campusloop.edu,Civil,4,2025-09-17,ACTIVE
+U0466,Gautham Raj,student0466@campusloop.edu,Electronics,3,2026-07-20,ACTIVE
+U0467,Ishaan Raj,student0467@campusloop.edu,Chemical Engineering,2,2026-04-16,ACTIVE
+U0468,Joel Raj,student0468@campusloop.edu,AI & Data Science,1,2025-08-30,ACTIVE
+U0469,Keerthana Raj,student0469@campusloop.edu,Electrical,4,2026-05-07,ACTIVE
+U0470,Krishna Raj,student0470@campusloop.edu,Computer Science,3,2026-07-15,ACTIVE
+U0471,Meera Raj,student0471@campusloop.edu,Architecture,2,2025-11-21,ACTIVE
+U0472,Nandana Raj,student0472@campusloop.edu,Mechanical,1,2025-12-08,ACTIVE
+U0473,Nikhil Raj,student0473@campusloop.edu,Information Technology,4,2026-04-04,INACTIVE
+U0474,Rahul Raj,student0474@campusloop.edu,Biotechnology,3,2026-05-04,ACTIVE
+U0475,Riya Raj,student0475@campusloop.edu,Civil,2,2025-10-20,ACTIVE
+U0476,Rohan Raj,student0476@campusloop.edu,Electronics,1,2026-07-15,ACTIVE
+U0477,Sanjay Raj,student0477@campusloop.edu,Chemical Engineering,4,2026-07-28,ACTIVE
+U0478,Sneha Raj,student0478@campusloop.edu,AI & Data Science,3,2026-07-30,ACTIVE
+U0479,Vishnu Raj,student0479@campusloop.edu,Electrical,2,2026-07-16,ACTIVE
+U0480,Varsha Raj,student0480@campusloop.edu,Computer Science,1,2026-03-28,ACTIVE
+U0481,Aarav Salim,student0481@campusloop.edu,Architecture,4,2026-02-22,ACTIVE
+U0482,Aditya Salim,student0482@campusloop.edu,Mechanical,3,2025-12-06,ACTIVE
+U0483,Aishwarya Salim,student0483@campusloop.edu,Information Technology,2,2026-04-14,ACTIVE
+U0484,Akash Salim,student0484@campusloop.edu,Biotechnology,1,2026-08-20,ACTIVE
+U0485,Akshay Salim,student0485@campusloop.edu,Civil,4,2025-08-10,ACTIVE
+U0486,Amal Salim,student0486@campusloop.edu,Electronics,3,2025-12-01,ACTIVE
+U0487,Amritha Salim,student0487@campusloop.edu,Chemical Engineering,2,2025-11-29,ACTIVE
+U0488,Ananya Salim,student0488@campusloop.edu,AI & Data Science,1,2026-06-29,ACTIVE
+U0489,Anjali Salim,student0489@campusloop.edu,Electrical,4,2025-11-05,ACTIVE
+U0490,Aparna Salim,student0490@campusloop.edu,Computer Science,3,2026-01-08,ACTIVE
+U0491,Arjun Salim,student0491@campusloop.edu,Architecture,2,2026-05-14,ACTIVE
+U0492,Athira Salim,student0492@campusloop.edu,Mechanical,1,2025-08-05,ACTIVE
+U0493,Devika Salim,student0493@campusloop.edu,Information Technology,4,2026-02-23,ACTIVE
+U0494,Diya Salim,student0494@campusloop.edu,Biotechnology,3,2026-08-07,ACTIVE
+U0495,Fathima Salim,student0495@campusloop.edu,Civil,2,2026-04-15,ACTIVE
+U0496,Gautham Salim,student0496@campusloop.edu,Electronics,1,2025-07-30,ACTIVE
+U0497,Ishaan Salim,student0497@campusloop.edu,Chemical Engineering,4,2026-03-20,ACTIVE
+U0498,Joel Salim,student0498@campusloop.edu,AI & Data Science,3,2026-06-09,INACTIVE
+U0499,Keerthana Salim,student0499@campusloop.edu,Electrical,2,2026-06-07,ACTIVE
+U0500,Krishna Salim,student0500@campusloop.edu,Computer Science,1,2026-07-27,ACTIVE
+U0501,Meera Salim,student0501@campusloop.edu,Architecture,4,2026-01-23,ACTIVE
+U0502,Nandana Salim,student0502@campusloop.edu,Mechanical,3,2025-08-06,ACTIVE
+U0503,Nikhil Salim,student0503@campusloop.edu,Information Technology,2,2026-01-08,ACTIVE
+U0504,Rahul Salim,student0504@campusloop.edu,Biotechnology,1,2026-02-02,ACTIVE
+U0505,Riya Salim,student0505@campusloop.edu,Civil,4,2026-05-30,ACTIVE
+U0506,Rohan Salim,student0506@campusloop.edu,Electronics,3,2025-09-11,ACTIVE
+U0507,Sanjay Salim,student0507@campusloop.edu,Chemical Engineering,2,2026-02-23,ACTIVE
+U0508,Sneha Salim,student0508@campusloop.edu,AI & Data Science,1,2026-04-28,ACTIVE
+U0509,Vishnu Salim,student0509@campusloop.edu,Electrical,4,2026-08-05,ACTIVE
+U0510,Varsha Salim,student0510@campusloop.edu,Computer Science,3,2025-10-19,ACTIVE
+U0511,Aarav Francis,student0511@campusloop.edu,Architecture,2,2026-05-03,ACTIVE
+U0512,Aditya Francis,student0512@campusloop.edu,Mechanical,1,2025-09-30,ACTIVE
+U0513,Aishwarya Francis,student0513@campusloop.edu,Information Technology,4,2026-01-07,ACTIVE
+U0514,Akash Francis,student0514@campusloop.edu,Biotechnology,3,2026-07-21,ACTIVE
+U0515,Akshay Francis,student0515@campusloop.edu,Civil,2,2026-08-12,ACTIVE
+U0516,Amal Francis,student0516@campusloop.edu,Electronics,1,2026-06-02,ACTIVE
+U0517,Amritha Francis,student0517@campusloop.edu,Chemical Engineering,4,2026-03-07,ACTIVE
+U0518,Ananya Francis,student0518@campusloop.edu,AI & Data Science,3,2026-07-05,ACTIVE
+U0519,Anjali Francis,student0519@campusloop.edu,Electrical,2,2026-01-09,ACTIVE
+U0520,Aparna Francis,student0520@campusloop.edu,Computer Science,1,2025-11-28,ACTIVE
+U0521,Arjun Francis,student0521@campusloop.edu,Architecture,4,2026-04-14,ACTIVE
+U0522,Athira Francis,student0522@campusloop.edu,Mechanical,3,2026-03-04,ACTIVE
+U0523,Devika Francis,student0523@campusloop.edu,Information Technology,2,2025-10-26,ACTIVE
+U0524,Diya Francis,student0524@campusloop.edu,Biotechnology,1,2025-08-25,ACTIVE
+U0525,Fathima Francis,student0525@campusloop.edu,Civil,4,2025-07-21,ACTIVE
+U0526,Gautham Francis,student0526@campusloop.edu,Electronics,3,2026-06-20,ACTIVE
+U0527,Ishaan Francis,student0527@campusloop.edu,Chemical Engineering,2,2026-01-02,ACTIVE
+U0528,Joel Francis,student0528@campusloop.edu,AI & Data Science,1,2026-07-11,ACTIVE
+U0529,Keerthana Francis,student0529@campusloop.edu,Electrical,4,2026-04-05,ACTIVE
+U0530,Krishna Francis,student0530@campusloop.edu,Computer Science,3,2025-12-24,ACTIVE
+U0531,Meera Francis,student0531@campusloop.edu,Architecture,2,2025-08-15,ACTIVE
+U0532,Nandana Francis,student0532@campusloop.edu,Mechanical,1,2025-08-23,ACTIVE
+U0533,Nikhil Francis,student0533@campusloop.edu,Information Technology,4,2026-05-20,ACTIVE
+U0534,Rahul Francis,student0534@campusloop.edu,Biotechnology,3,2026-06-23,ACTIVE
+U0535,Riya Francis,student0535@campusloop.edu,Civil,2,2026-01-15,ACTIVE
+U0536,Rohan Francis,student0536@campusloop.edu,Electronics,1,2026-04-18,ACTIVE
+U0537,Sanjay Francis,student0537@campusloop.edu,Chemical Engineering,4,2026-04-08,ACTIVE
+U0538,Sneha Francis,student0538@campusloop.edu,AI & Data Science,3,2026-07-24,ACTIVE
+U0539,Vishnu Francis,student0539@campusloop.edu,Electrical,2,2025-11-07,ACTIVE
+U0540,Varsha Francis,student0540@campusloop.edu,Computer Science,1,2026-07-29,ACTIVE
+U0541,Aarav Hari,student0541@campusloop.edu,Architecture,4,2025-08-26,ACTIVE
+U0542,Aditya Hari,student0542@campusloop.edu,Mechanical,3,2025-11-21,ACTIVE
+U0543,Aishwarya Hari,student0543@campusloop.edu,Information Technology,2,2026-01-13,ACTIVE
+U0544,Akash Hari,student0544@campusloop.edu,Biotechnology,1,2025-07-30,ACTIVE
+U0545,Akshay Hari,student0545@campusloop.edu,Civil,4,2026-01-27,ACTIVE
+U0546,Amal Hari,student0546@campusloop.edu,Electronics,3,2026-04-30,ACTIVE
+U0547,Amritha Hari,student0547@campusloop.edu,Chemical Engineering,2,2025-08-26,ACTIVE
+U0548,Ananya Hari,student0548@campusloop.edu,AI & Data Science,1,2026-08-08,ACTIVE
+U0549,Anjali Hari,student0549@campusloop.edu,Electrical,4,2025-11-24,ACTIVE
+U0550,Aparna Hari,student0550@campusloop.edu,Computer Science,3,2026-08-02,ACTIVE
+U0551,Arjun Hari,student0551@campusloop.edu,Architecture,2,2026-05-20,ACTIVE
+U0552,Athira Hari,student0552@campusloop.edu,Mechanical,1,2025-10-20,INACTIVE
+U0553,Devika Hari,student0553@campusloop.edu,Information Technology,4,2025-08-02,ACTIVE
+U0554,Diya Hari,student0554@campusloop.edu,Biotechnology,3,2025-09-08,ACTIVE
+U0555,Fathima Hari,student0555@campusloop.edu,Civil,2,2026-01-22,ACTIVE
+U0556,Gautham Hari,student0556@campusloop.edu,Electronics,1,2025-12-03,ACTIVE
+U0557,Ishaan Hari,student0557@campusloop.edu,Chemical Engineering,4,2026-05-22,ACTIVE
+U0558,Joel Hari,student0558@campusloop.edu,AI & Data Science,3,2026-07-31,ACTIVE
+U0559,Keerthana Hari,student0559@campusloop.edu,Electrical,2,2025-08-14,ACTIVE
+U0560,Krishna Hari,student0560@campusloop.edu,Computer Science,1,2025-07-19,ACTIVE
+U0561,Meera Hari,student0561@campusloop.edu,Architecture,4,2025-09-18,ACTIVE
+U0562,Nandana Hari,student0562@campusloop.edu,Mechanical,3,2026-08-25,ACTIVE
+U0563,Nikhil Hari,student0563@campusloop.edu,Information Technology,2,2025-09-04,ACTIVE
+U0564,Rahul Hari,student0564@campusloop.edu,Biotechnology,1,2026-05-19,ACTIVE
+U0565,Riya Hari,student0565@campusloop.edu,Civil,4,2026-04-14,ACTIVE
+U0566,Rohan Hari,student0566@campusloop.edu,Electronics,3,2026-08-20,ACTIVE
+U0567,Sanjay Hari,student0567@campusloop.edu,Chemical Engineering,2,2025-07-25,ACTIVE
+U0568,Sneha Hari,student0568@campusloop.edu,AI & Data Science,1,2025-11-09,ACTIVE
+U0569,Vishnu Hari,student0569@campusloop.edu,Electrical,4,2026-02-27,ACTIVE
+U0570,Varsha Hari,student0570@campusloop.edu,Computer Science,3,2026-05-29,ACTIVE
+U0571,Aarav Bose,student0571@campusloop.edu,Architecture,2,2025-09-17,ACTIVE
+U0572,Aditya Bose,student0572@campusloop.edu,Mechanical,1,2026-05-27,ACTIVE
+U0573,Aishwarya Bose,student0573@campusloop.edu,Information Technology,4,2025-09-19,ACTIVE
+U0574,Akash Bose,student0574@campusloop.edu,Biotechnology,3,2025-10-11,ACTIVE
+U0575,Akshay Bose,student0575@campusloop.edu,Civil,2,2025-08-03,ACTIVE
+U0576,Amal Bose,student0576@campusloop.edu,Electronics,1,2026-02-01,ACTIVE
+U0577,Amritha Bose,student0577@campusloop.edu,Chemical Engineering,4,2026-07-23,ACTIVE
+U0578,Ananya Bose,student0578@campusloop.edu,AI & Data Science,3,2026-02-13,ACTIVE
+U0579,Anjali Bose,student0579@campusloop.edu,Electrical,2,2026-02-13,ACTIVE
+U0580,Aparna Bose,student0580@campusloop.edu,Computer Science,1,2026-01-01,ACTIVE
+U0581,Arjun Bose,student0581@campusloop.edu,Architecture,4,2026-05-20,ACTIVE
+U0582,Athira Bose,student0582@campusloop.edu,Mechanical,3,2025-12-01,ACTIVE
+U0583,Devika Bose,student0583@campusloop.edu,Information Technology,2,2026-08-11,ACTIVE
+U0584,Diya Bose,student0584@campusloop.edu,Biotechnology,1,2026-04-15,ACTIVE
+U0585,Fathima Bose,student0585@campusloop.edu,Civil,4,2025-07-16,ACTIVE
+U0586,Gautham Bose,student0586@campusloop.edu,Electronics,3,2025-07-18,ACTIVE
+U0587,Ishaan Bose,student0587@campusloop.edu,Chemical Engineering,2,2026-03-21,ACTIVE
+U0588,Joel Bose,student0588@campusloop.edu,AI & Data Science,1,2025-08-15,ACTIVE
+U0589,Keerthana Bose,student0589@campusloop.edu,Electrical,4,2025-12-16,ACTIVE
+U0590,Krishna Bose,student0590@campusloop.edu,Computer Science,3,2025-09-08,ACTIVE
+U0591,Meera Bose,student0591@campusloop.edu,Architecture,2,2026-02-04,ACTIVE
+U0592,Nandana Bose,student0592@campusloop.edu,Mechanical,1,2025-07-31,ACTIVE
+U0593,Nikhil Bose,student0593@campusloop.edu,Information Technology,4,2025-10-21,ACTIVE
+U0594,Rahul Bose,student0594@campusloop.edu,Biotechnology,3,2026-05-07,ACTIVE
+U0595,Riya Bose,student0595@campusloop.edu,Civil,2,2025-11-07,ACTIVE
+U0596,Rohan Bose,student0596@campusloop.edu,Electronics,1,2026-03-07,ACTIVE
+U0597,Sanjay Bose,student0597@campusloop.edu,Chemical Engineering,4,2025-12-22,ACTIVE
+U0598,Sneha Bose,student0598@campusloop.edu,AI & Data Science,3,2026-01-31,ACTIVE
+U0599,Vishnu Bose,student0599@campusloop.edu,Electrical,2,2026-08-15,ACTIVE
+U0600,Varsha Bose,student0600@campusloop.edu,Computer Science,1,2025-09-20,ACTIVE
+U0601,Aarav Nair 601,student0601@campusloop.edu,Architecture,4,2025-07-16,INACTIVE
+U0602,Aditya Nair 602,student0602@campusloop.edu,Mechanical,3,2026-05-31,ACTIVE
+U0603,Aishwarya Nair 603,student0603@campusloop.edu,Information Technology,2,2025-12-11,ACTIVE
+U0604,Akash Nair 604,student0604@campusloop.edu,Biotechnology,1,2026-03-13,ACTIVE
+U0605,Akshay Nair 605,student0605@campusloop.edu,Civil,4,2026-02-13,INACTIVE
+U0606,Amal Nair 606,student0606@campusloop.edu,Electronics,3,2026-07-30,ACTIVE
+U0607,Amritha Nair 607,student0607@campusloop.edu,Chemical Engineering,2,2026-06-17,ACTIVE
+U0608,Ananya Nair 608,student0608@campusloop.edu,AI & Data Science,1,2025-12-26,ACTIVE
+U0609,Anjali Nair 609,student0609@campusloop.edu,Electrical,4,2026-06-07,ACTIVE
+U0610,Aparna Nair 610,student0610@campusloop.edu,Computer Science,3,2026-01-22,ACTIVE
+U0611,Arjun Nair 611,student0611@campusloop.edu,Architecture,2,2025-11-30,ACTIVE
+U0612,Athira Nair 612,student0612@campusloop.edu,Mechanical,1,2026-07-21,ACTIVE
+U0613,Devika Nair 613,student0613@campusloop.edu,Information Technology,4,2026-07-11,ACTIVE
+U0614,Diya Nair 614,student0614@campusloop.edu,Biotechnology,3,2025-08-19,ACTIVE
+U0615,Fathima Nair 615,student0615@campusloop.edu,Civil,2,2025-07-28,ACTIVE
+U0616,Gautham Nair 616,student0616@campusloop.edu,Electronics,1,2025-11-17,ACTIVE
+U0617,Ishaan Nair 617,student0617@campusloop.edu,Chemical Engineering,4,2025-11-12,ACTIVE
+U0618,Joel Nair 618,student0618@campusloop.edu,AI & Data Science,3,2025-07-06,ACTIVE
+U0619,Keerthana Nair 619,student0619@campusloop.edu,Electrical,2,2026-05-19,ACTIVE
+U0620,Krishna Nair 620,student0620@campusloop.edu,Computer Science,1,2025-08-29,ACTIVE
+U0621,Meera Nair 621,student0621@campusloop.edu,Architecture,4,2025-11-17,ACTIVE
+U0622,Nandana Nair 622,student0622@campusloop.edu,Mechanical,3,2026-06-30,ACTIVE
+U0623,Nikhil Nair 623,student0623@campusloop.edu,Information Technology,2,2025-12-15,ACTIVE
+U0624,Rahul Nair 624,student0624@campusloop.edu,Biotechnology,1,2025-08-14,ACTIVE
+U0625,Riya Nair 625,student0625@campusloop.edu,Civil,4,2026-06-27,ACTIVE
+U0626,Rohan Nair 626,student0626@campusloop.edu,Electronics,3,2025-08-25,ACTIVE
+U0627,Sanjay Nair 627,student0627@campusloop.edu,Chemical Engineering,2,2025-09-11,ACTIVE
+U0628,Sneha Nair 628,student0628@campusloop.edu,AI & Data Science,1,2026-04-24,ACTIVE
+U0629,Vishnu Nair 629,student0629@campusloop.edu,Electrical,4,2026-08-18,ACTIVE
+U0630,Varsha Nair 630,student0630@campusloop.edu,Computer Science,3,2026-03-09,ACTIVE
+U0631,Aarav Menon 631,student0631@campusloop.edu,Architecture,2,2026-02-07,ACTIVE
+U0632,Aditya Menon 632,student0632@campusloop.edu,Mechanical,1,2025-09-18,INACTIVE
+U0633,Aishwarya Menon 633,student0633@campusloop.edu,Information Technology,4,2025-09-08,ACTIVE
+U0634,Akash Menon 634,student0634@campusloop.edu,Biotechnology,3,2025-08-08,ACTIVE
+U0635,Akshay Menon 635,student0635@campusloop.edu,Civil,2,2025-08-06,ACTIVE
+U0636,Amal Menon 636,student0636@campusloop.edu,Electronics,1,2025-10-22,ACTIVE
+U0637,Amritha Menon 637,student0637@campusloop.edu,Chemical Engineering,4,2025-09-21,ACTIVE
+U0638,Ananya Menon 638,student0638@campusloop.edu,AI & Data Science,3,2026-05-05,ACTIVE
+U0639,Anjali Menon 639,student0639@campusloop.edu,Electrical,2,2026-03-07,ACTIVE
+U0640,Aparna Menon 640,student0640@campusloop.edu,Computer Science,1,2025-07-03,ACTIVE
+U0641,Arjun Menon 641,student0641@campusloop.edu,Architecture,4,2025-12-05,ACTIVE
+U0642,Athira Menon 642,student0642@campusloop.edu,Mechanical,3,2026-05-05,ACTIVE
+U0643,Devika Menon 643,student0643@campusloop.edu,Information Technology,2,2026-02-27,ACTIVE
+U0644,Diya Menon 644,student0644@campusloop.edu,Biotechnology,1,2026-04-09,ACTIVE
+U0645,Fathima Menon 645,student0645@campusloop.edu,Civil,4,2026-04-27,ACTIVE
+U0646,Gautham Menon 646,student0646@campusloop.edu,Electronics,3,2025-08-13,ACTIVE
+U0647,Ishaan Menon 647,student0647@campusloop.edu,Chemical Engineering,2,2026-07-04,ACTIVE
+U0648,Joel Menon 648,student0648@campusloop.edu,AI & Data Science,1,2025-11-29,ACTIVE
+U0649,Keerthana Menon 649,student0649@campusloop.edu,Electrical,4,2025-10-18,ACTIVE
+U0650,Krishna Menon 650,student0650@campusloop.edu,Computer Science,3,2026-04-13,ACTIVE
+U0651,Meera Menon 651,student0651@campusloop.edu,Architecture,2,2026-05-03,ACTIVE
+U0652,Nandana Menon 652,student0652@campusloop.edu,Mechanical,1,2025-12-13,ACTIVE
+U0653,Nikhil Menon 653,student0653@campusloop.edu,Information Technology,4,2026-05-04,ACTIVE
+U0654,Rahul Menon 654,student0654@campusloop.edu,Biotechnology,3,2026-06-11,ACTIVE
+U0655,Riya Menon 655,student0655@campusloop.edu,Civil,2,2025-12-16,ACTIVE
+U0656,Rohan Menon 656,student0656@campusloop.edu,Electronics,1,2026-08-20,ACTIVE
+U0657,Sanjay Menon 657,student0657@campusloop.edu,Chemical Engineering,4,2026-06-07,ACTIVE
+U0658,Sneha Menon 658,student0658@campusloop.edu,AI & Data Science,3,2026-05-22,ACTIVE
+U0659,Vishnu Menon 659,student0659@campusloop.edu,Electrical,2,2026-08-24,ACTIVE
+U0660,Varsha Menon 660,student0660@campusloop.edu,Computer Science,1,2026-02-10,ACTIVE
+U0661,Aarav Thomas 661,student0661@campusloop.edu,Architecture,4,2026-02-07,ACTIVE
+U0662,Aditya Thomas 662,student0662@campusloop.edu,Mechanical,3,2025-11-19,ACTIVE
+U0663,Aishwarya Thomas 663,student0663@campusloop.edu,Information Technology,2,2026-06-27,INACTIVE
+U0664,Akash Thomas 664,student0664@campusloop.edu,Biotechnology,1,2025-09-17,ACTIVE
+U0665,Akshay Thomas 665,student0665@campusloop.edu,Civil,4,2025-10-17,ACTIVE
+U0666,Amal Thomas 666,student0666@campusloop.edu,Electronics,3,2025-08-15,ACTIVE
+U0667,Amritha Thomas 667,student0667@campusloop.edu,Chemical Engineering,2,2026-05-23,ACTIVE
+U0668,Ananya Thomas 668,student0668@campusloop.edu,AI & Data Science,1,2025-08-25,ACTIVE
+U0669,Anjali Thomas 669,student0669@campusloop.edu,Electrical,4,2025-11-22,ACTIVE
+U0670,Aparna Thomas 670,student0670@campusloop.edu,Computer Science,3,2025-08-24,ACTIVE
+U0671,Arjun Thomas 671,student0671@campusloop.edu,Architecture,2,2026-04-09,ACTIVE
+U0672,Athira Thomas 672,student0672@campusloop.edu,Mechanical,1,2026-08-04,ACTIVE
+U0673,Devika Thomas 673,student0673@campusloop.edu,Information Technology,4,2026-08-25,ACTIVE
+U0674,Diya Thomas 674,student0674@campusloop.edu,Biotechnology,3,2026-02-22,ACTIVE
+U0675,Fathima Thomas 675,student0675@campusloop.edu,Civil,2,2025-10-14,ACTIVE
+U0676,Gautham Thomas 676,student0676@campusloop.edu,Electronics,1,2026-08-16,ACTIVE
+U0677,Ishaan Thomas 677,student0677@campusloop.edu,Chemical Engineering,4,2025-07-07,ACTIVE
+U0678,Joel Thomas 678,student0678@campusloop.edu,AI & Data Science,3,2025-07-16,ACTIVE
+U0679,Keerthana Thomas 679,student0679@campusloop.edu,Electrical,2,2026-04-27,ACTIVE
+U0680,Krishna Thomas 680,student0680@campusloop.edu,Computer Science,1,2026-01-10,ACTIVE
+U0681,Meera Thomas 681,student0681@campusloop.edu,Architecture,4,2025-11-05,ACTIVE
+U0682,Nandana Thomas 682,student0682@campusloop.edu,Mechanical,3,2026-07-20,ACTIVE
+U0683,Nikhil Thomas 683,student0683@campusloop.edu,Information Technology,2,2026-03-08,ACTIVE
+U0684,Rahul Thomas 684,student0684@campusloop.edu,Biotechnology,1,2026-05-06,ACTIVE
+U0685,Riya Thomas 685,student0685@campusloop.edu,Civil,4,2025-07-09,ACTIVE
+U0686,Rohan Thomas 686,student0686@campusloop.edu,Electronics,3,2026-05-26,ACTIVE
+U0687,Sanjay Thomas 687,student0687@campusloop.edu,Chemical Engineering,2,2025-10-16,INACTIVE
+U0688,Sneha Thomas 688,student0688@campusloop.edu,AI & Data Science,1,2025-11-11,ACTIVE
+U0689,Vishnu Thomas 689,student0689@campusloop.edu,Electrical,4,2026-03-05,ACTIVE
+U0690,Varsha Thomas 690,student0690@campusloop.edu,Computer Science,3,2026-02-06,ACTIVE
+U0691,Aarav Krishnan 691,student0691@campusloop.edu,Architecture,2,2026-02-09,ACTIVE
+U0692,Aditya Krishnan 692,student0692@campusloop.edu,Mechanical,1,2025-09-17,ACTIVE
+U0693,Aishwarya Krishnan 693,student0693@campusloop.edu,Information Technology,4,2025-09-13,ACTIVE
+U0694,Akash Krishnan 694,student0694@campusloop.edu,Biotechnology,3,2026-06-13,ACTIVE
+U0695,Akshay Krishnan 695,student0695@campusloop.edu,Civil,2,2026-08-02,ACTIVE
+U0696,Amal Krishnan 696,student0696@campusloop.edu,Electronics,1,2026-01-09,ACTIVE
+U0697,Amritha Krishnan 697,student0697@campusloop.edu,Chemical Engineering,4,2025-08-01,ACTIVE
+U0698,Ananya Krishnan 698,student0698@campusloop.edu,AI & Data Science,3,2025-07-19,ACTIVE
+U0699,Anjali Krishnan 699,student0699@campusloop.edu,Electrical,2,2025-08-24,ACTIVE
+U0700,Aparna Krishnan 700,student0700@campusloop.edu,Computer Science,1,2025-12-10,ACTIVE
+U0701,Arjun Krishnan 701,student0701@campusloop.edu,Architecture,4,2025-07-20,ACTIVE
+U0702,Athira Krishnan 702,student0702@campusloop.edu,Mechanical,3,2026-08-09,ACTIVE
+U0703,Devika Krishnan 703,student0703@campusloop.edu,Information Technology,2,2026-04-29,ACTIVE
+U0704,Diya Krishnan 704,student0704@campusloop.edu,Biotechnology,1,2025-10-27,ACTIVE
+U0705,Fathima Krishnan 705,student0705@campusloop.edu,Civil,4,2025-10-17,ACTIVE
+U0706,Gautham Krishnan 706,student0706@campusloop.edu,Electronics,3,2026-05-06,ACTIVE
+U0707,Ishaan Krishnan 707,student0707@campusloop.edu,Chemical Engineering,2,2026-04-07,ACTIVE
+U0708,Joel Krishnan 708,student0708@campusloop.edu,AI & Data Science,1,2025-07-30,ACTIVE
+U0709,Keerthana Krishnan 709,student0709@campusloop.edu,Electrical,4,2026-04-05,ACTIVE
+U0710,Krishna Krishnan 710,student0710@campusloop.edu,Computer Science,3,2026-02-01,ACTIVE
+U0711,Meera Krishnan 711,student0711@campusloop.edu,Architecture,2,2026-01-30,ACTIVE
+U0712,Nandana Krishnan 712,student0712@campusloop.edu,Mechanical,1,2026-03-22,ACTIVE
+U0713,Nikhil Krishnan 713,student0713@campusloop.edu,Information Technology,4,2025-11-26,ACTIVE
+U0714,Rahul Krishnan 714,student0714@campusloop.edu,Biotechnology,3,2025-07-05,ACTIVE
+U0715,Riya Krishnan 715,student0715@campusloop.edu,Civil,2,2026-08-07,ACTIVE
+U0716,Rohan Krishnan 716,student0716@campusloop.edu,Electronics,1,2026-03-10,ACTIVE
+U0717,Sanjay Krishnan 717,student0717@campusloop.edu,Chemical Engineering,4,2025-09-09,ACTIVE
+U0718,Sneha Krishnan 718,student0718@campusloop.edu,AI & Data Science,3,2026-06-19,ACTIVE
+U0719,Vishnu Krishnan 719,student0719@campusloop.edu,Electrical,2,2026-04-26,ACTIVE
+U0720,Varsha Krishnan 720,student0720@campusloop.edu,Computer Science,1,2026-03-30,ACTIVE
+U0721,Aarav Pillai 721,student0721@campusloop.edu,Architecture,4,2026-04-13,ACTIVE
+U0722,Aditya Pillai 722,student0722@campusloop.edu,Mechanical,3,2025-10-10,ACTIVE
+U0723,Aishwarya Pillai 723,student0723@campusloop.edu,Information Technology,2,2026-08-06,ACTIVE
+U0724,Akash Pillai 724,student0724@campusloop.edu,Biotechnology,1,2025-12-17,ACTIVE
+U0725,Akshay Pillai 725,student0725@campusloop.edu,Civil,4,2025-11-25,ACTIVE
+U0726,Amal Pillai 726,student0726@campusloop.edu,Electronics,3,2026-02-21,ACTIVE
+U0727,Amritha Pillai 727,student0727@campusloop.edu,Chemical Engineering,2,2025-07-07,ACTIVE
+U0728,Ananya Pillai 728,student0728@campusloop.edu,AI & Data Science,1,2026-04-29,ACTIVE
+U0729,Anjali Pillai 729,student0729@campusloop.edu,Electrical,4,2025-07-26,ACTIVE
+U0730,Aparna Pillai 730,student0730@campusloop.edu,Computer Science,3,2026-03-05,ACTIVE
+U0731,Arjun Pillai 731,student0731@campusloop.edu,Architecture,2,2025-12-13,ACTIVE
+U0732,Athira Pillai 732,student0732@campusloop.edu,Mechanical,1,2026-01-17,ACTIVE
+U0733,Devika Pillai 733,student0733@campusloop.edu,Information Technology,4,2026-02-16,ACTIVE
+U0734,Diya Pillai 734,student0734@campusloop.edu,Biotechnology,3,2026-07-31,ACTIVE
+U0735,Fathima Pillai 735,student0735@campusloop.edu,Civil,2,2025-07-09,ACTIVE
+U0736,Gautham Pillai 736,student0736@campusloop.edu,Electronics,1,2026-02-16,ACTIVE
+U0737,Ishaan Pillai 737,student0737@campusloop.edu,Chemical Engineering,4,2026-01-28,ACTIVE
+U0738,Joel Pillai 738,student0738@campusloop.edu,AI & Data Science,3,2026-04-27,ACTIVE
+U0739,Keerthana Pillai 739,student0739@campusloop.edu,Electrical,2,2025-08-04,ACTIVE
+U0740,Krishna Pillai 740,student0740@campusloop.edu,Computer Science,1,2026-05-15,ACTIVE
+U0741,Meera Pillai 741,student0741@campusloop.edu,Architecture,4,2026-04-11,ACTIVE
+U0742,Nandana Pillai 742,student0742@campusloop.edu,Mechanical,3,2025-08-08,ACTIVE
+U0743,Nikhil Pillai 743,student0743@campusloop.edu,Information Technology,2,2026-04-07,ACTIVE
+U0744,Rahul Pillai 744,student0744@campusloop.edu,Biotechnology,1,2026-08-20,INACTIVE
+U0745,Riya Pillai 745,student0745@campusloop.edu,Civil,4,2026-06-09,ACTIVE
+U0746,Rohan Pillai 746,student0746@campusloop.edu,Electronics,3,2026-01-26,ACTIVE
+U0747,Sanjay Pillai 747,student0747@campusloop.edu,Chemical Engineering,2,2025-11-22,ACTIVE
+U0748,Sneha Pillai 748,student0748@campusloop.edu,AI & Data Science,1,2025-09-09,ACTIVE
+U0749,Vishnu Pillai 749,student0749@campusloop.edu,Electrical,4,2025-08-20,ACTIVE
+U0750,Varsha Pillai 750,student0750@campusloop.edu,Computer Science,3,2025-09-04,ACTIVE
+U0751,Aarav George 751,student0751@campusloop.edu,Architecture,2,2025-12-03,ACTIVE
+U0752,Aditya George 752,student0752@campusloop.edu,Mechanical,1,2025-08-31,ACTIVE
+U0753,Aishwarya George 753,student0753@campusloop.edu,Information Technology,4,2026-06-03,ACTIVE
+U0754,Akash George 754,student0754@campusloop.edu,Biotechnology,3,2026-05-17,ACTIVE
+U0755,Akshay George 755,student0755@campusloop.edu,Civil,2,2025-12-27,ACTIVE
+U0756,Amal George 756,student0756@campusloop.edu,Electronics,1,2025-09-17,ACTIVE
+U0757,Amritha George 757,student0757@campusloop.edu,Chemical Engineering,4,2025-07-17,ACTIVE
+U0758,Ananya George 758,student0758@campusloop.edu,AI & Data Science,3,2026-02-13,ACTIVE
+U0759,Anjali George 759,student0759@campusloop.edu,Electrical,2,2025-07-20,ACTIVE
+U0760,Aparna George 760,student0760@campusloop.edu,Computer Science,1,2025-11-03,ACTIVE
+U0761,Arjun George 761,student0761@campusloop.edu,Architecture,4,2026-02-12,ACTIVE
+U0762,Athira George 762,student0762@campusloop.edu,Mechanical,3,2026-06-18,ACTIVE
+U0763,Devika George 763,student0763@campusloop.edu,Information Technology,2,2026-02-26,ACTIVE
+U0764,Diya George 764,student0764@campusloop.edu,Biotechnology,1,2025-08-06,ACTIVE
+U0765,Fathima George 765,student0765@campusloop.edu,Civil,4,2025-11-01,INACTIVE
+U0766,Gautham George 766,student0766@campusloop.edu,Electronics,3,2026-03-17,INACTIVE
+U0767,Ishaan George 767,student0767@campusloop.edu,Chemical Engineering,2,2025-08-07,ACTIVE
+U0768,Joel George 768,student0768@campusloop.edu,AI & Data Science,1,2025-11-23,ACTIVE
+U0769,Keerthana George 769,student0769@campusloop.edu,Electrical,4,2026-02-21,ACTIVE
+U0770,Krishna George 770,student0770@campusloop.edu,Computer Science,3,2025-12-13,ACTIVE
+U0771,Meera George 771,student0771@campusloop.edu,Architecture,2,2026-08-02,ACTIVE
+U0772,Nandana George 772,student0772@campusloop.edu,Mechanical,1,2025-11-15,ACTIVE
+U0773,Nikhil George 773,student0773@campusloop.edu,Information Technology,4,2026-03-17,ACTIVE
+U0774,Rahul George 774,student0774@campusloop.edu,Biotechnology,3,2025-07-11,ACTIVE
+U0775,Riya George 775,student0775@campusloop.edu,Civil,2,2026-02-02,ACTIVE
+U0776,Rohan George 776,student0776@campusloop.edu,Electronics,1,2026-07-15,ACTIVE
+U0777,Sanjay George 777,student0777@campusloop.edu,Chemical Engineering,4,2025-09-15,ACTIVE
+U0778,Sneha George 778,student0778@campusloop.edu,AI & Data Science,3,2026-01-05,ACTIVE
+U0779,Vishnu George 779,student0779@campusloop.edu,Electrical,2,2025-07-31,ACTIVE
+U0780,Varsha George 780,student0780@campusloop.edu,Computer Science,1,2026-02-16,ACTIVE
+U0781,Aarav Mathew 781,student0781@campusloop.edu,Architecture,4,2026-01-12,ACTIVE
+U0782,Aditya Mathew 782,student0782@campusloop.edu,Mechanical,3,2026-06-28,ACTIVE
+U0783,Aishwarya Mathew 783,student0783@campusloop.edu,Information Technology,2,2025-10-22,ACTIVE
+U0784,Akash Mathew 784,student0784@campusloop.edu,Biotechnology,1,2026-01-16,ACTIVE
+U0785,Akshay Mathew 785,student0785@campusloop.edu,Civil,4,2026-02-06,ACTIVE
+U0786,Amal Mathew 786,student0786@campusloop.edu,Electronics,3,2026-06-09,ACTIVE
+U0787,Amritha Mathew 787,student0787@campusloop.edu,Chemical Engineering,2,2025-08-22,ACTIVE
+U0788,Ananya Mathew 788,student0788@campusloop.edu,AI & Data Science,1,2026-02-12,ACTIVE
+U0789,Anjali Mathew 789,student0789@campusloop.edu,Electrical,4,2026-08-10,ACTIVE
+U0790,Aparna Mathew 790,student0790@campusloop.edu,Computer Science,3,2026-01-24,ACTIVE
+U0791,Arjun Mathew 791,student0791@campusloop.edu,Architecture,2,2025-10-07,ACTIVE
+U0792,Athira Mathew 792,student0792@campusloop.edu,Mechanical,1,2026-06-22,ACTIVE
+U0793,Devika Mathew 793,student0793@campusloop.edu,Information Technology,4,2026-06-22,ACTIVE
+U0794,Diya Mathew 794,student0794@campusloop.edu,Biotechnology,3,2026-05-09,ACTIVE
+U0795,Fathima Mathew 795,student0795@campusloop.edu,Civil,2,2026-01-03,ACTIVE
+U0796,Gautham Mathew 796,student0796@campusloop.edu,Electronics,1,2025-10-13,ACTIVE
+U0797,Ishaan Mathew 797,student0797@campusloop.edu,Chemical Engineering,4,2025-08-19,ACTIVE
+U0798,Joel Mathew 798,student0798@campusloop.edu,AI & Data Science,3,2025-12-21,ACTIVE
+U0799,Keerthana Mathew 799,student0799@campusloop.edu,Electrical,2,2026-07-04,ACTIVE
+U0800,Krishna Mathew 800,student0800@campusloop.edu,Computer Science,1,2025-10-06,ACTIVE
+U0801,Meera Mathew 801,student0801@campusloop.edu,Architecture,4,2025-12-02,ACTIVE
+U0802,Nandana Mathew 802,student0802@campusloop.edu,Mechanical,3,2025-12-21,ACTIVE
+U0803,Nikhil Mathew 803,student0803@campusloop.edu,Information Technology,2,2026-03-14,ACTIVE
+U0804,Rahul Mathew 804,student0804@campusloop.edu,Biotechnology,1,2025-09-04,ACTIVE
+U0805,Riya Mathew 805,student0805@campusloop.edu,Civil,4,2025-09-23,ACTIVE
+U0806,Rohan Mathew 806,student0806@campusloop.edu,Electronics,3,2025-11-19,ACTIVE
+U0807,Sanjay Mathew 807,student0807@campusloop.edu,Chemical Engineering,2,2026-03-07,INACTIVE
+U0808,Sneha Mathew 808,student0808@campusloop.edu,AI & Data Science,1,2025-09-11,ACTIVE
+U0809,Vishnu Mathew 809,student0809@campusloop.edu,Electrical,4,2026-05-25,ACTIVE
+U0810,Varsha Mathew 810,student0810@campusloop.edu,Computer Science,3,2025-07-20,ACTIVE
+U0811,Aarav Kumar 811,student0811@campusloop.edu,Architecture,2,2026-02-09,ACTIVE
+U0812,Aditya Kumar 812,student0812@campusloop.edu,Mechanical,1,2026-07-21,ACTIVE
+U0813,Aishwarya Kumar 813,student0813@campusloop.edu,Information Technology,4,2026-06-24,ACTIVE
+U0814,Akash Kumar 814,student0814@campusloop.edu,Biotechnology,3,2025-10-07,ACTIVE
+U0815,Akshay Kumar 815,student0815@campusloop.edu,Civil,2,2026-03-27,ACTIVE
+U0816,Amal Kumar 816,student0816@campusloop.edu,Electronics,1,2026-04-29,ACTIVE
+U0817,Amritha Kumar 817,student0817@campusloop.edu,Chemical Engineering,4,2026-02-13,ACTIVE
+U0818,Ananya Kumar 818,student0818@campusloop.edu,AI & Data Science,3,2026-06-26,ACTIVE
+U0819,Anjali Kumar 819,student0819@campusloop.edu,Electrical,2,2026-02-07,ACTIVE
+U0820,Aparna Kumar 820,student0820@campusloop.edu,Computer Science,1,2026-02-13,ACTIVE
+U0821,Arjun Kumar 821,student0821@campusloop.edu,Architecture,4,2026-08-03,ACTIVE
+U0822,Athira Kumar 822,student0822@campusloop.edu,Mechanical,3,2026-02-18,ACTIVE
+U0823,Devika Kumar 823,student0823@campusloop.edu,Information Technology,2,2026-07-02,ACTIVE
+U0824,Diya Kumar 824,student0824@campusloop.edu,Biotechnology,1,2026-04-06,ACTIVE
+U0825,Fathima Kumar 825,student0825@campusloop.edu,Civil,4,2025-11-09,ACTIVE
+U0826,Gautham Kumar 826,student0826@campusloop.edu,Electronics,3,2026-04-30,ACTIVE
+U0827,Ishaan Kumar 827,student0827@campusloop.edu,Chemical Engineering,2,2026-07-31,ACTIVE
+U0828,Joel Kumar 828,student0828@campusloop.edu,AI & Data Science,1,2026-03-10,ACTIVE
+U0829,Keerthana Kumar 829,student0829@campusloop.edu,Electrical,4,2025-07-28,ACTIVE
+U0830,Krishna Kumar 830,student0830@campusloop.edu,Computer Science,3,2025-09-29,ACTIVE
+U0831,Meera Kumar 831,student0831@campusloop.edu,Architecture,2,2026-02-25,ACTIVE
+U0832,Nandana Kumar 832,student0832@campusloop.edu,Mechanical,1,2026-03-08,ACTIVE
+U0833,Nikhil Kumar 833,student0833@campusloop.edu,Information Technology,4,2025-12-27,ACTIVE
+U0834,Rahul Kumar 834,student0834@campusloop.edu,Biotechnology,3,2025-10-15,ACTIVE
+U0835,Riya Kumar 835,student0835@campusloop.edu,Civil,2,2025-08-20,ACTIVE
+U0836,Rohan Kumar 836,student0836@campusloop.edu,Electronics,1,2026-05-12,ACTIVE
+U0837,Sanjay Kumar 837,student0837@campusloop.edu,Chemical Engineering,4,2025-10-20,INACTIVE
+U0838,Sneha Kumar 838,student0838@campusloop.edu,AI & Data Science,3,2026-03-19,ACTIVE
+U0839,Vishnu Kumar 839,student0839@campusloop.edu,Electrical,2,2026-06-30,INACTIVE
+U0840,Varsha Kumar 840,student0840@campusloop.edu,Computer Science,1,2025-07-11,ACTIVE
+U0841,Aarav Das 841,student0841@campusloop.edu,Architecture,4,2025-09-29,ACTIVE
+U0842,Aditya Das 842,student0842@campusloop.edu,Mechanical,3,2026-01-22,ACTIVE
+U0843,Aishwarya Das 843,student0843@campusloop.edu,Information Technology,2,2025-08-26,ACTIVE
+U0844,Akash Das 844,student0844@campusloop.edu,Biotechnology,1,2025-07-04,ACTIVE
+U0845,Akshay Das 845,student0845@campusloop.edu,Civil,4,2025-11-01,ACTIVE
+U0846,Amal Das 846,student0846@campusloop.edu,Electronics,3,2026-04-06,ACTIVE
+U0847,Amritha Das 847,student0847@campusloop.edu,Chemical Engineering,2,2026-02-02,ACTIVE
+U0848,Ananya Das 848,student0848@campusloop.edu,AI & Data Science,1,2025-11-16,ACTIVE
+U0849,Anjali Das 849,student0849@campusloop.edu,Electrical,4,2026-04-04,ACTIVE
+U0850,Aparna Das 850,student0850@campusloop.edu,Computer Science,3,2025-11-17,ACTIVE
+U0851,Arjun Das 851,student0851@campusloop.edu,Architecture,2,2026-03-27,ACTIVE
+U0852,Athira Das 852,student0852@campusloop.edu,Mechanical,1,2026-06-28,ACTIVE
+U0853,Devika Das 853,student0853@campusloop.edu,Information Technology,4,2025-12-19,ACTIVE
+U0854,Diya Das 854,student0854@campusloop.edu,Biotechnology,3,2025-08-22,ACTIVE
+U0855,Fathima Das 855,student0855@campusloop.edu,Civil,2,2026-08-22,INACTIVE
+U0856,Gautham Das 856,student0856@campusloop.edu,Electronics,1,2026-06-04,ACTIVE
+U0857,Ishaan Das 857,student0857@campusloop.edu,Chemical Engineering,4,2026-03-14,ACTIVE
+U0858,Joel Das 858,student0858@campusloop.edu,AI & Data Science,3,2026-06-23,ACTIVE
+U0859,Keerthana Das 859,student0859@campusloop.edu,Electrical,2,2026-08-19,ACTIVE
+U0860,Krishna Das 860,student0860@campusloop.edu,Computer Science,1,2026-07-08,ACTIVE
+U0861,Meera Das 861,student0861@campusloop.edu,Architecture,4,2025-11-30,ACTIVE
+U0862,Nandana Das 862,student0862@campusloop.edu,Mechanical,3,2026-05-22,ACTIVE
+U0863,Nikhil Das 863,student0863@campusloop.edu,Information Technology,2,2026-04-13,ACTIVE
+U0864,Rahul Das 864,student0864@campusloop.edu,Biotechnology,1,2025-12-27,ACTIVE
+U0865,Riya Das 865,student0865@campusloop.edu,Civil,4,2026-07-02,ACTIVE
+U0866,Rohan Das 866,student0866@campusloop.edu,Electronics,3,2025-10-20,ACTIVE
+U0867,Sanjay Das 867,student0867@campusloop.edu,Chemical Engineering,2,2025-12-29,ACTIVE
+U0868,Sneha Das 868,student0868@campusloop.edu,AI & Data Science,1,2026-08-12,ACTIVE
+U0869,Vishnu Das 869,student0869@campusloop.edu,Electrical,4,2026-05-26,ACTIVE
+U0870,Varsha Das 870,student0870@campusloop.edu,Computer Science,3,2025-12-26,ACTIVE
+U0871,Aarav Babu 871,student0871@campusloop.edu,Architecture,2,2026-01-22,ACTIVE
+U0872,Aditya Babu 872,student0872@campusloop.edu,Mechanical,1,2025-12-27,ACTIVE
+U0873,Aishwarya Babu 873,student0873@campusloop.edu,Information Technology,4,2025-07-24,ACTIVE
+U0874,Akash Babu 874,student0874@campusloop.edu,Biotechnology,3,2026-05-21,ACTIVE
+U0875,Akshay Babu 875,student0875@campusloop.edu,Civil,2,2025-11-03,INACTIVE
+U0876,Amal Babu 876,student0876@campusloop.edu,Electronics,1,2026-03-22,INACTIVE
+U0877,Amritha Babu 877,student0877@campusloop.edu,Chemical Engineering,4,2026-02-28,ACTIVE
+U0878,Ananya Babu 878,student0878@campusloop.edu,AI & Data Science,3,2026-07-28,ACTIVE
+U0879,Anjali Babu 879,student0879@campusloop.edu,Electrical,2,2026-04-27,ACTIVE
+U0880,Aparna Babu 880,student0880@campusloop.edu,Computer Science,1,2025-10-29,ACTIVE
+U0881,Arjun Babu 881,student0881@campusloop.edu,Architecture,4,2026-01-14,ACTIVE
+U0882,Athira Babu 882,student0882@campusloop.edu,Mechanical,3,2025-11-04,ACTIVE
+U0883,Devika Babu 883,student0883@campusloop.edu,Information Technology,2,2025-11-14,ACTIVE
+U0884,Diya Babu 884,student0884@campusloop.edu,Biotechnology,1,2025-11-18,ACTIVE
+U0885,Fathima Babu 885,student0885@campusloop.edu,Civil,4,2026-05-11,ACTIVE
+U0886,Gautham Babu 886,student0886@campusloop.edu,Electronics,3,2026-07-19,ACTIVE
+U0887,Ishaan Babu 887,student0887@campusloop.edu,Chemical Engineering,2,2026-04-21,ACTIVE
+U0888,Joel Babu 888,student0888@campusloop.edu,AI & Data Science,1,2026-04-03,ACTIVE
+U0889,Keerthana Babu 889,student0889@campusloop.edu,Electrical,4,2026-05-17,ACTIVE
+U0890,Krishna Babu 890,student0890@campusloop.edu,Computer Science,3,2025-11-12,ACTIVE
+U0891,Meera Babu 891,student0891@campusloop.edu,Architecture,2,2026-07-06,ACTIVE
+U0892,Nandana Babu 892,student0892@campusloop.edu,Mechanical,1,2026-01-09,ACTIVE
+U0893,Nikhil Babu 893,student0893@campusloop.edu,Information Technology,4,2025-07-31,ACTIVE
+U0894,Rahul Babu 894,student0894@campusloop.edu,Biotechnology,3,2026-05-23,ACTIVE
+U0895,Riya Babu 895,student0895@campusloop.edu,Civil,2,2026-03-15,ACTIVE
+U0896,Rohan Babu 896,student0896@campusloop.edu,Electronics,1,2026-06-02,ACTIVE
+U0897,Sanjay Babu 897,student0897@campusloop.edu,Chemical Engineering,4,2026-04-26,ACTIVE
+U0898,Sneha Babu 898,student0898@campusloop.edu,AI & Data Science,3,2026-02-04,ACTIVE
+U0899,Vishnu Babu 899,student0899@campusloop.edu,Electrical,2,2026-02-14,ACTIVE
+U0900,Varsha Babu 900,student0900@campusloop.edu,Computer Science,1,2026-07-03,ACTIVE
+U0901,Aarav Mohan 901,student0901@campusloop.edu,Architecture,4,2026-03-05,ACTIVE
+U0902,Aditya Mohan 902,student0902@campusloop.edu,Mechanical,3,2026-02-22,ACTIVE
+U0903,Aishwarya Mohan 903,student0903@campusloop.edu,Information Technology,2,2026-02-26,ACTIVE
+U0904,Akash Mohan 904,student0904@campusloop.edu,Biotechnology,1,2026-05-18,ACTIVE
+U0905,Akshay Mohan 905,student0905@campusloop.edu,Civil,4,2025-09-25,ACTIVE
+U0906,Amal Mohan 906,student0906@campusloop.edu,Electronics,3,2025-11-16,ACTIVE
+U0907,Amritha Mohan 907,student0907@campusloop.edu,Chemical Engineering,2,2025-08-13,ACTIVE
+U0908,Ananya Mohan 908,student0908@campusloop.edu,AI & Data Science,1,2026-08-13,ACTIVE
+U0909,Anjali Mohan 909,student0909@campusloop.edu,Electrical,4,2026-04-28,ACTIVE
+U0910,Aparna Mohan 910,student0910@campusloop.edu,Computer Science,3,2026-01-22,ACTIVE
+U0911,Arjun Mohan 911,student0911@campusloop.edu,Architecture,2,2025-11-08,ACTIVE
+U0912,Athira Mohan 912,student0912@campusloop.edu,Mechanical,1,2025-07-14,ACTIVE
+U0913,Devika Mohan 913,student0913@campusloop.edu,Information Technology,4,2026-07-13,ACTIVE
+U0914,Diya Mohan 914,student0914@campusloop.edu,Biotechnology,3,2025-08-07,ACTIVE
+U0915,Fathima Mohan 915,student0915@campusloop.edu,Civil,2,2026-08-18,ACTIVE
+U0916,Gautham Mohan 916,student0916@campusloop.edu,Electronics,1,2025-12-13,ACTIVE
+U0917,Ishaan Mohan 917,student0917@campusloop.edu,Chemical Engineering,4,2026-01-13,ACTIVE
+U0918,Joel Mohan 918,student0918@campusloop.edu,AI & Data Science,3,2026-04-23,ACTIVE
+U0919,Keerthana Mohan 919,student0919@campusloop.edu,Electrical,2,2026-06-04,ACTIVE
+U0920,Krishna Mohan 920,student0920@campusloop.edu,Computer Science,1,2026-05-29,ACTIVE
+U0921,Meera Mohan 921,student0921@campusloop.edu,Architecture,4,2026-01-08,ACTIVE
+U0922,Nandana Mohan 922,student0922@campusloop.edu,Mechanical,3,2026-04-21,ACTIVE
+U0923,Nikhil Mohan 923,student0923@campusloop.edu,Information Technology,2,2025-12-12,ACTIVE
+U0924,Rahul Mohan 924,student0924@campusloop.edu,Biotechnology,1,2025-11-08,ACTIVE
+U0925,Riya Mohan 925,student0925@campusloop.edu,Civil,4,2026-06-16,ACTIVE
+U0926,Rohan Mohan 926,student0926@campusloop.edu,Electronics,3,2026-06-12,ACTIVE
+U0927,Sanjay Mohan 927,student0927@campusloop.edu,Chemical Engineering,2,2026-04-28,ACTIVE
+U0928,Sneha Mohan 928,student0928@campusloop.edu,AI & Data Science,1,2026-06-20,ACTIVE
+U0929,Vishnu Mohan 929,student0929@campusloop.edu,Electrical,4,2026-03-02,ACTIVE
+U0930,Varsha Mohan 930,student0930@campusloop.edu,Computer Science,3,2025-12-15,ACTIVE
+U0931,Aarav Joseph 931,student0931@campusloop.edu,Architecture,2,2025-11-18,ACTIVE
+U0932,Aditya Joseph 932,student0932@campusloop.edu,Mechanical,1,2025-08-03,ACTIVE
+U0933,Aishwarya Joseph 933,student0933@campusloop.edu,Information Technology,4,2025-08-26,ACTIVE
+U0934,Akash Joseph 934,student0934@campusloop.edu,Biotechnology,3,2025-12-19,ACTIVE
+U0935,Akshay Joseph 935,student0935@campusloop.edu,Civil,2,2025-11-03,ACTIVE
+U0936,Amal Joseph 936,student0936@campusloop.edu,Electronics,1,2025-09-24,ACTIVE
+U0937,Amritha Joseph 937,student0937@campusloop.edu,Chemical Engineering,4,2026-07-28,ACTIVE
+U0938,Ananya Joseph 938,student0938@campusloop.edu,AI & Data Science,3,2025-08-27,ACTIVE
+U0939,Anjali Joseph 939,student0939@campusloop.edu,Electrical,2,2026-03-19,ACTIVE
+U0940,Aparna Joseph 940,student0940@campusloop.edu,Computer Science,1,2025-09-05,ACTIVE
+U0941,Arjun Joseph 941,student0941@campusloop.edu,Architecture,4,2025-11-03,ACTIVE
+U0942,Athira Joseph 942,student0942@campusloop.edu,Mechanical,3,2025-07-22,ACTIVE
+U0943,Devika Joseph 943,student0943@campusloop.edu,Information Technology,2,2026-02-09,ACTIVE
+U0944,Diya Joseph 944,student0944@campusloop.edu,Biotechnology,1,2025-07-19,ACTIVE
+U0945,Fathima Joseph 945,student0945@campusloop.edu,Civil,4,2026-08-18,ACTIVE
+U0946,Gautham Joseph 946,student0946@campusloop.edu,Electronics,3,2025-07-25,ACTIVE
+U0947,Ishaan Joseph 947,student0947@campusloop.edu,Chemical Engineering,2,2026-01-24,ACTIVE
+U0948,Joel Joseph 948,student0948@campusloop.edu,AI & Data Science,1,2026-08-09,ACTIVE
+U0949,Keerthana Joseph 949,student0949@campusloop.edu,Electrical,4,2026-03-21,ACTIVE
+U0950,Krishna Joseph 950,student0950@campusloop.edu,Computer Science,3,2025-09-30,ACTIVE
+U0951,Meera Joseph 951,student0951@campusloop.edu,Architecture,2,2026-03-26,ACTIVE
+U0952,Nandana Joseph 952,student0952@campusloop.edu,Mechanical,1,2026-06-05,ACTIVE
+U0953,Nikhil Joseph 953,student0953@campusloop.edu,Information Technology,4,2025-11-17,ACTIVE
+U0954,Rahul Joseph 954,student0954@campusloop.edu,Biotechnology,3,2025-11-25,ACTIVE
+U0955,Riya Joseph 955,student0955@campusloop.edu,Civil,2,2025-07-03,ACTIVE
+U0956,Rohan Joseph 956,student0956@campusloop.edu,Electronics,1,2026-02-21,INACTIVE
+U0957,Sanjay Joseph 957,student0957@campusloop.edu,Chemical Engineering,4,2025-10-13,ACTIVE
+U0958,Sneha Joseph 958,student0958@campusloop.edu,AI & Data Science,3,2025-10-21,ACTIVE
+U0959,Vishnu Joseph 959,student0959@campusloop.edu,Electrical,2,2025-10-27,ACTIVE
+U0960,Varsha Joseph 960,student0960@campusloop.edu,Computer Science,1,2025-11-25,ACTIVE
+U0961,Aarav Varma 961,student0961@campusloop.edu,Architecture,4,2025-10-11,ACTIVE
+U0962,Aditya Varma 962,student0962@campusloop.edu,Mechanical,3,2026-01-06,ACTIVE
+U0963,Aishwarya Varma 963,student0963@campusloop.edu,Information Technology,2,2025-10-31,ACTIVE
+U0964,Akash Varma 964,student0964@campusloop.edu,Biotechnology,1,2025-12-15,ACTIVE
+U0965,Akshay Varma 965,student0965@campusloop.edu,Civil,4,2026-04-03,ACTIVE
+U0966,Amal Varma 966,student0966@campusloop.edu,Electronics,3,2026-03-25,ACTIVE
+U0967,Amritha Varma 967,student0967@campusloop.edu,Chemical Engineering,2,2025-12-25,ACTIVE
+U0968,Ananya Varma 968,student0968@campusloop.edu,AI & Data Science,1,2026-02-03,INACTIVE
+U0969,Anjali Varma 969,student0969@campusloop.edu,Electrical,4,2026-07-25,ACTIVE
+U0970,Aparna Varma 970,student0970@campusloop.edu,Computer Science,3,2026-04-11,ACTIVE
+U0971,Arjun Varma 971,student0971@campusloop.edu,Architecture,2,2025-10-09,ACTIVE
+U0972,Athira Varma 972,student0972@campusloop.edu,Mechanical,1,2026-05-05,ACTIVE
+U0973,Devika Varma 973,student0973@campusloop.edu,Information Technology,4,2025-07-03,ACTIVE
+U0974,Diya Varma 974,student0974@campusloop.edu,Biotechnology,3,2025-09-05,ACTIVE
+U0975,Fathima Varma 975,student0975@campusloop.edu,Civil,2,2026-08-07,ACTIVE
+U0976,Gautham Varma 976,student0976@campusloop.edu,Electronics,1,2025-11-14,ACTIVE
+U0977,Ishaan Varma 977,student0977@campusloop.edu,Chemical Engineering,4,2025-08-21,ACTIVE
+U0978,Joel Varma 978,student0978@campusloop.edu,AI & Data Science,3,2025-07-06,ACTIVE
+U0979,Keerthana Varma 979,student0979@campusloop.edu,Electrical,2,2026-05-07,ACTIVE
+U0980,Krishna Varma 980,student0980@campusloop.edu,Computer Science,1,2026-08-03,ACTIVE
+U0981,Meera Varma 981,student0981@campusloop.edu,Architecture,4,2026-05-24,ACTIVE
+U0982,Nandana Varma 982,student0982@campusloop.edu,Mechanical,3,2026-04-03,ACTIVE
+U0983,Nikhil Varma 983,student0983@campusloop.edu,Information Technology,2,2025-08-24,ACTIVE
+U0984,Rahul Varma 984,student0984@campusloop.edu,Biotechnology,1,2025-11-13,ACTIVE
+U0985,Riya Varma 985,student0985@campusloop.edu,Civil,4,2025-07-14,ACTIVE
+U0986,Rohan Varma 986,student0986@campusloop.edu,Electronics,3,2025-11-12,ACTIVE
+U0987,Sanjay Varma 987,student0987@campusloop.edu,Chemical Engineering,2,2026-01-14,ACTIVE
+U0988,Sneha Varma 988,student0988@campusloop.edu,AI & Data Science,1,2025-10-04,ACTIVE
+U0989,Vishnu Varma 989,student0989@campusloop.edu,Electrical,4,2025-12-06,ACTIVE
+U0990,Varsha Varma 990,student0990@campusloop.edu,Computer Science,3,2025-09-24,ACTIVE
+U0991,Aarav Suresh 991,student0991@campusloop.edu,Architecture,2,2026-06-11,ACTIVE
+U0992,Aditya Suresh 992,student0992@campusloop.edu,Mechanical,1,2026-07-16,ACTIVE
+U0993,Aishwarya Suresh 993,student0993@campusloop.edu,Information Technology,4,2025-12-06,ACTIVE
+U0994,Akash Suresh 994,student0994@campusloop.edu,Biotechnology,3,2026-08-21,ACTIVE
+U0995,Akshay Suresh 995,student0995@campusloop.edu,Civil,2,2026-01-05,ACTIVE
+U0996,Amal Suresh 996,student0996@campusloop.edu,Electronics,1,2026-06-12,ACTIVE
+U0997,Amritha Suresh 997,student0997@campusloop.edu,Chemical Engineering,4,2026-06-06,ACTIVE
+U0998,Ananya Suresh 998,student0998@campusloop.edu,AI & Data Science,3,2025-09-12,ACTIVE
+U0999,Anjali Suresh 999,student0999@campusloop.edu,Electrical,2,2026-04-25,ACTIVE
+U1000,Aparna Suresh 1000,student1000@campusloop.edu,Computer Science,1,2025-07-05,ACTIVE
