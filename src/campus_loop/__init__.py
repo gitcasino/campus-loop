@@ -117,6 +117,18 @@ class CSVManager:
 class ItemListingManager(CSVManager):
     """Manager for item_listings.csv — Rahul's owned dataset."""
 
+    def get_new_id(self) -> str:
+        """Generate the next sequential item ID (I0001, I0002, ...)."""
+        df = self.load()
+        if df.empty:
+            return "I0001"
+        numbers = [
+            int(str(value)[1:])
+            for value in df.iloc[:, 0].tolist()
+            if str(value).startswith("I") and str(value)[1:].isdigit()
+        ]
+        return f"I{max(numbers) + 1:04d}" if numbers else "I5001"
+
     def _get_columns(self) -> List[str]:
         return [
             "item_id", "owner_user_id", "title", "category", "item_type",
