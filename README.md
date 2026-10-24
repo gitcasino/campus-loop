@@ -21,14 +21,6 @@ The application is a single Streamlit web app backed by four CSV datasets that a
 
 ---
 
-## Live Demo
-
-CampusLoop is live on Streamlit Community Cloud:
-
-[**Launch CampusLoop →**](https://campus-loop.streamlit.app/)
-
----
-
 ## Core Workflow
 
 **Need something → Discover → Inspect → Choose sharing option → Record activity → Complete → Measure impact**
@@ -233,8 +225,6 @@ The app starts on `http://localhost:8501` (default Streamlit port). The page tit
 
 ---
 
----
-
 ## Testing / Verification
 
 **Automated tests:** *none currently in the repository.*
@@ -252,36 +242,6 @@ The app starts on `http://localhost:8501` (default Streamlit port). The page tit
 8. Toggle theme (dark/light) and reduce-motion checkbox → verify UI adapts.
 9. Resize browser window → check responsive layout (cards reflow, tables scroll).
 10. Open browser devtools console → confirm no JavaScript errors.
-
----
-
-## Deployment
-
-CampusLoop is deployed on **Streamlit Community Cloud**:
-
-**Live URL:** https://campus-loop.streamlit.app/
-
-### Deploy your own instance
-
-1. Fork or clone this repository.
-2. Create a new app on [Streamlit Community Cloud](https://share.streamlit.io/).
-3. Connect your forked repository.
-4. Select the `main` branch.
-5. Set the main file to `app.py`.
-6. Deploy — no additional configuration is required.
-
-### Configuration requirements
-
-**No environment variables, API keys, secrets, database credentials, or external service credentials are required to run CampusLoop.**
-
-- The application uses the CSV files committed under `data/` as its persistent source of truth.
-- No `.env` file is required.
-- No `.streamlit/secrets.toml` configuration is required.
-- No external database configuration is required.
-
-> ⚠️ The CSV-based persistence is suitable for a single-user prototype or demo. It does not provide multi-user concurrency guarantees or production-grade database durability. See [Limitations](#limitations).
-
----
 
 ---
 
