@@ -98,20 +98,20 @@ The application is a single Streamlit web app backed by four CSV datasets that a
 
 ```mermaid
 flowchart TD
-    A[Streamlit UI] --> B[Page Functions in app.py]
-    B --> C[UI Components (src/campus_loop/ui)]
-    B --> D[Data Managers (src/campus_loop/__init__.py)]
-    C --> E[Charts (Plotly)]
-    C --> F[HTML/CSS Helpers]
-    D --> G[CSVManager Base Class]
-    G --> H[ItemListingManager]
-    G --> I[SharingActivityManager]
-    G --> J[UserManager]
-    G --> K[ImpactManager]
-    H --> L[(data/item_listings.csv)]
-    I --> M[(data/sharing_activities.csv)]
-    J --> N[(data/users.csv)]
-    K --> O[(data/impact.csv)]
+    A[Streamlit UI] --> B[Application Logic]
+    B --> C[UI Components]
+    B --> D[Data Managers]
+    B --> E[Charts and Analytics]
+    C --> F[HTML and CSS Helpers]
+    D --> G[CSV Manager]
+    G --> H[Item Listing Manager]
+    G --> I[Sharing Activity Manager]
+    G --> J[User Manager]
+    G --> K[Impact Manager]
+    H --> L[Item Listings CSV]
+    I --> M[Sharing Activities CSV]
+    J --> N[Users CSV]
+    K --> O[Impact CSV]
 ```
 
 **Layers**
