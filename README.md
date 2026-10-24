@@ -21,6 +21,14 @@ The application is a single Streamlit web app backed by four CSV datasets that a
 
 ---
 
+## Live Demo
+
+CampusLoop is live on Streamlit Community Cloud:
+
+[**Launch CampusLoop →**](https://campus-loop.streamlit.app/)
+
+---
+
 ## Core Workflow
 
 **Need something → Discover → Inspect → Choose sharing option → Record activity → Complete → Measure impact**
@@ -194,40 +202,6 @@ Each owned dataset has a dedicated manager class inheriting from `CSVManager`:
 
 ---
 
-## Project Structure
-
-```text
-campus-loop/
-├── app.py                 # Streamlit entry point, routing, page functions
-├── pyproject.toml         # Project metadata, dependencies, uv build config
-├── uv.lock                # Locked dependency versions
-├── README.md              # This file
-├── LICENSE                # MIT License
-├── .gitignore             # Ignored files (venv, caches, template, agents, etc.)
-├── spec.md                # Product & engineering specification
-├── .streamlit/
-│   └── config.toml        # Streamlit theme (dark base) and toolbar settings
-├── assets/
-│   ├── campus-loop.png    # Primary visual reference (1774×887)
-│   ├── campusloop-logo-full.png / .svg
-│   └── favicon.* / icon-*.png
-├── data/
-│   ├── item_listings.csv
-│   ├── sharing_activities.csv
-│   ├── users.csv
-│   └── impact.csv
-└── src/
-    └── campus_loop/
-        ├── __init__.py    # Managers, CSVManager, init_managers
-        └── ui/
-            ├── __init__.py
-            ├── theme.py   # CSS (dark/light glass), inject_css, img_data_uri
-            ├── components.py  # HTML generators (cards, tables, stats, hero, etc.)
-            └── charts.py  # Plotly chart builders (donut, bar, line, histogram)
-```
-
----
-
 ## Requirements
 
 - **Python** ≥ 3.14 (as declared in `pyproject.toml`)
@@ -259,27 +233,6 @@ The app starts on `http://localhost:8501` (default Streamlit port). The page tit
 
 ---
 
-## Development Workflow
-
-```text
-Clone repository
-      ↓
-uv sync                # install dependencies
-      ↓
-uv run streamlit run app.py   # start dev server
-      ↓
-Edit Python / UI code (hot-reload works for most changes)
-      ↓
-Verify CSV persistence (create/update/delete → check data/ files)
-      ↓
-Commit changes
-```
-
-**Tips**
-- CSS/theme changes in `src/campus_loop/ui/theme.py` require a full reload (Streamlit caches injected CSS).
-- Manager logic in `src/campus_loop/__init__.py` is re-imported on each run; no restart needed.
-- Use `invalidate()` (exposed on About page) to force cache clear without restart.
-
 ---
 
 ## Testing / Verification
@@ -304,20 +257,31 @@ Commit changes
 
 ## Deployment
 
-CampusLoop is a standard Streamlit application. It can be deployed to any Streamlit-compatible Python hosting environment (Streamlit Community Cloud, Railway, Render, Fly.io, Docker container with `streamlit run app.py`, etc.).
+CampusLoop is deployed on **Streamlit Community Cloud**:
 
-**No deployment configuration is currently present in the repository.** Add a `Dockerfile`, `.streamlit/secrets.toml`, or platform-specific config as needed for your target environment.
+**Live URL:** https://campus-loop.streamlit.app/
+
+### Deploy your own instance
+
+1. Fork or clone this repository.
+2. Create a new app on [Streamlit Community Cloud](https://share.streamlit.io/).
+3. Connect your forked repository.
+4. Select the `main` branch.
+5. Set the main file to `app.py`.
+6. Deploy — no additional configuration is required.
+
+### Configuration requirements
+
+**No environment variables, API keys, secrets, database credentials, or external service credentials are required to run CampusLoop.**
+
+- The application uses the CSV files committed under `data/` as its persistent source of truth.
+- No `.env` file is required.
+- No `.streamlit/secrets.toml` configuration is required.
+- No external database configuration is required.
+
+> ⚠️ The CSV-based persistence is suitable for a single-user prototype or demo. It does not provide multi-user concurrency guarantees or production-grade database durability. See [Limitations](#limitations).
 
 ---
-
-## Design / UX
-
-- **Dark & light themes** — CSS custom properties drive a glassmorphism system (translucent surfaces, thin borders, backdrop blur, subtle inner highlights).
-- **Motion hierarchy** — ambient orbs, page entrance, hover/focus feedback, filter transitions, CRUD success/delete animations, chart transitions; respects `prefers-reduced-motion`.
-- **Responsive layout** — cards reflow, navigation remains usable, tables scroll horizontally, 3D elements simplify on narrow viewports.
-- **Premium visual system** — emerald/gold/violet accents, Outfit + Space Mono typography, layered depth, animated gradient orbs on Home.
-- **Reusable components** — stat cards, listing cards, detail cards, data tables, activity feed, empty states, badges, mode tags, pagers.
-- **Data visualization** — Plotly charts styled to match theme (dark/light), hidden modebar, consistent heights, responsive width.
 
 ---
 
@@ -374,17 +338,3 @@ Fork the repository
 ```
 
 Keep contributions focused; avoid unrelated refactors in the same PR.
-
----
-
-## License
-
-MIT License — see [LICENSE](LICENSE) for full text.
-
-Copyright (c) 2026 Rahul Krishna R
-
----
-
-## Closing
-
-CampusLoop turns unused campus resources into a discoverable, reusable sharing network — helping students access what they need while reducing unnecessary consumption.
