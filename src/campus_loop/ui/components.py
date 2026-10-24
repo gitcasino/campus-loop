@@ -11,6 +11,7 @@ import re
 from typing import Iterable, Sequence
 
 import pandas as pd
+import streamlit as st
 
 from .theme import img_data_uri
 
@@ -142,7 +143,7 @@ def page_header(title: str, subtitle: str = "", section: str = "") -> str:
     """)
 
 
-def hero(logo_uri: str) -> str:
+def hero(image_uri: str) -> str:
     return compact(f"""
     <section class="cl-hero">
         <div class="cl-hero-grid">
@@ -158,7 +159,8 @@ def hero(logo_uri: str) -> str:
                 </div>
             </div>
             <div class="cl-hero-art">
-                <img src="{logo_uri}" alt="CampusLoop" />
+                <img class="cl-hero-photo" src="{image_uri}"
+                     alt="CampusLoop community sharing everyday campus items" />
             </div>
         </div>
     </section>
@@ -271,6 +273,31 @@ html, body {
 }
 """
 
+_LIGHT_STAT_FRAME_CSS = """
+html, body { color: #10241C; }
+.stat {
+    background: rgba(255, 255, 255, 0.56);
+    border-color: rgba(18, 66, 48, 0.13);
+}
+.stat:hover {
+    background: rgba(255, 255, 255, 0.82);
+    border-color: rgba(14, 159, 110, 0.30);
+    box-shadow: 0 20px 40px -22px rgba(22, 52, 40, 0.4);
+}
+.label, .sub { color: rgba(16, 36, 28, 0.52); }
+.value {
+    background: linear-gradient(135deg, #10241C 16%, #0B7A52 78%, #A9791F 108%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.icon { color: #0B7A52; background: rgba(14, 159, 110, 0.12); }
+.icon.gold { color: #8A6218; background: rgba(169, 121, 31, 0.13); }
+.icon.coral { color: #C0563D; background: rgba(192, 86, 61, 0.12); }
+.icon.info { color: #1D7FB8; background: rgba(29, 127, 184, 0.12); }
+"""
+
+
 _STAT_FRAME_JS = """
 (function () {
   var reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
@@ -330,9 +357,14 @@ def stat_grid_frame(items: Sequence[tuple]) -> str:
             </div>
             """
         )
+    try:
+        light = st.session_state.get("theme", "dark") == "light"
+    except Exception:
+        light = False
+    frame_css = _STAT_FRAME_CSS + (_LIGHT_STAT_FRAME_CSS if light else "")
     return (
         "<!DOCTYPE html><html><head><meta charset='utf-8'><style>"
-        + _STAT_FRAME_CSS
+        + frame_css
         + "</style></head><body><div class='stats'>"
         + "".join(cards)
         + "</div><script>"

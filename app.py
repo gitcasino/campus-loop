@@ -1,13 +1,14 @@
 """CampusLoop — premium campus circular-consumption platform.
 
-The presentation layer is a complete rebuild on top of the TemplateMo 607
-Glass Admin visual system (deep forest ambient background, glass surfaces,
-emerald/gold palette, Outfit + Space Mono typography, 3D depth). The data layer
-in ``src/campus_loop`` and the CSV files remain the source of truth.
+The presentation layer is a custom CampusLoop glass interface (layered ambient
+background, translucent surfaces, emerald/gold/violet palette, Outfit + Space
+Mono typography, restrained depth and motion). The data layer in
+``src/campus_loop`` and the CSV files remain the source of truth.
 """
 
 from __future__ import annotations
 
+import base64
 import math
 import os
 import sys
@@ -53,7 +54,7 @@ st.set_page_config(
     page_title="CampusLoop",
     page_icon=os.path.join(BASE_DIR, "assets", "favicon.png"),
     layout="wide",
-    initial_sidebar_state="expanded",
+    initial_sidebar_state="collapsed",
 )
 
 cl.init_managers(BASE_DIR)
@@ -76,6 +77,7 @@ ITEM_STATUSES = ["AVAILABLE", "RESERVED", "BORROWED", "RETURNED", "INACTIVE"]
 
 DEFAULTS = {
     "page": "Home",
+    "theme": "dark",
     "page_size": 12,
     "reduce_motion": False,
     "d_page": 1,
@@ -86,6 +88,10 @@ DEFAULTS = {
 }
 for _key, _value in DEFAULTS.items():
     st.session_state.setdefault(_key, _value)
+
+_query_theme = st.query_params.get("theme")
+if _query_theme in ("dark", "light"):
+    st.session_state.theme = _query_theme
 
 
 def _mtime(path: str) -> float:
@@ -202,55 +208,55 @@ def window(df: pd.DataFrame, page_key: str, size: int) -> tuple[pd.DataFrame, in
 # ---------------------------------------------------------------------------
 # Shell
 # ---------------------------------------------------------------------------
-BRAND_LOGO = img_data_uri(os.path.join(BASE_DIR, "assets", "campusloop-logo-white.png"))
-HERO_LOGO = img_data_uri(os.path.join(BASE_DIR, "assets", "campusloop-logo-full-white.png"))
+BRAND_LOGO = img_data_uri(os.path.join(BASE_DIR, "assets", "campusloop-logo-full.png"))
+HERO_PHOTO = img_data_uri(os.path.join(BASE_DIR, "assets", "campus-loop.png"))
 
-NAV = [
-    ("Main menu", ["Home", "Discover", "My Listings", "Sharing"]),
-    ("Community", ["Users"]),
-    ("Insights", ["Impact", "Analytics", "Smart Match"]),
-    ("System", ["Settings"]),
-]
+NAV_ITEMS = ["Home", "Discover", "My Listings", "Sharing", "Users", "Impact", "Analytics", "About"]
 
 
-def render_sidebar() -> None:
-    smd(
-        f"""
-        <div class="cl-brand">
-            <img class="cl-brand-logo" src="{BRAND_LOGO}" alt="CampusLoop" />
-            <div class="cl-brand-sub">Share &middot; Reuse &middot; Save</div>
-        </div>
-        """,
-        unsafe_allow_html=True,
-    )
-    current = st.session_state.page
-    for title, pages in NAV:
-        smd(f'<div class="cl-nav-section">{esc(title)}</div>', unsafe_allow_html=True)
-        for page in pages:
-            if st.sidebar.button(
-                page,
-                key=f"nav_{page}",
+def set_theme(theme: str) -> None:
+    st.session_state.theme = theme
+    try:
+        st.query_params["theme"] = theme
+    except Exception:
+        pass
+
+
+def plot_card(fig, key: str) -> None:
+    with st.container(key=f"chartcard_{key}"):
+        st.plotly_chart(fig, width="stretch", config={"displayModeBar": False})
+
+
+def render_topbar() -> None:
+    theme = st.session_state.get("theme", "dark")
+    current = st.session_state.get("page", "Home")
+    widths = [1.65, 0.9, 0.95, 1.05, 0.85, 0.72, 0.72, 0.9, 0.82, 0.8]
+    with st.container(key="app_topbar"):
+        cells = st.columns(widths, vertical_alignment="center")
+        with cells[0]:
+            md(
+                f'<div class="cl-topbar-brand"><img class="cl-topbar-logo" '
+                f'src="{BRAND_LOGO}" alt="CampusLoop" /></div>'
+            )
+        for cell, page in zip(cells[1:9], NAV_ITEMS):
+            with cell:
+                if st.button(
+                    page,
+                    key=f"nav_{page}",
+                    type="primary" if page == current else "secondary",
+                    width="stretch",
+                ):
+                    st.session_state.page = page
+                    st.rerun()
+        with cells[9]:
+            if st.button(
+                "Light" if theme == "dark" else "Dark",
+                key="theme_toggle",
+                icon=":material/light_mode:" if theme == "dark" else ":material/dark_mode:",
                 width="stretch",
-                type="primary" if page == current else "secondary",
             ):
-                st.session_state.page = page
+                set_theme("light" if theme == "dark" else "dark")
                 st.rerun()
-
-    member_count = len(all_users())
-    smd(
-        f"""
-        <div class="cl-side-foot">
-            <div class="cl-user">
-                <div class="cl-avatar" style="background:linear-gradient(135deg,#8CFF66,#38D996)">CL</div>
-                <div>
-                    <div class="cl-user-name">CampusLoop</div>
-                    <div class="cl-user-email">{member_count:,} campus members</div>
-                </div>
-            </div>
-        </div>
-        """,
-        unsafe_allow_html=True,
-    )
 
 
 # ---------------------------------------------------------------------------
@@ -262,8 +268,8 @@ def home_page() -> None:
     members = all_users()
     impacts = all_impact()
 
-    md(page_header("Home", "Your campus circulation dashboard", "Overview"), unsafe_allow_html=True)
-    md(hero(HERO_LOGO), unsafe_allow_html=True)
+    md(page_header("Home", "Your campus sharing overview", "Overview"), unsafe_allow_html=True)
+    md(hero(HERO_PHOTO), unsafe_allow_html=True)
 
     c1, c2, c3, _ = st.columns([1.05, 1.05, 1.05, 1.85])
     with c1:
@@ -286,43 +292,19 @@ def home_page() -> None:
     value_saved = float(col(impacts, "estimated_value_saved_inr").sum()) if "estimated_value_saved_inr" in impacts else 0.0
     departments = int(col(members, "department").nunique())
 
+    frame = stat_grid_frame(
+        [
+            ("Listings", len(listings), f"{available:,} available now", "", "listings", "", "", 0),
+            ("Sharing activities", len(activities), f"{completed:,} completed", "info", "activities", "", "", 0),
+            ("Campus members", len(members), f"{departments} departments", "gold", "users", "", "", 0),
+            ("Value retained", int(value_saved), "estimated savings", "coral", "value", "₹", "", 0),
+        ]
+    )
     try:
-        import streamlit as _st
-        if hasattr(_st, "iframe"):
-            _st.iframe(stat_grid_frame(
-                [
-                    ("Listings", len(listings), f"{available:,} available now", "", "listings", "", "", 0),
-                    ("Sharing activities", len(activities), f"{completed:,} completed", "info", "activities", "", "", 0),
-                    ("Campus members", len(members), f"{departments} departments", "gold", "users", "", "", 0),
-                    ("Value retained", int(value_saved), "estimated savings", "coral", "value", "₹", "", 0),
-                ]
-            ), height=178, scrolling=False)
-        else:
-            components.html(
-                stat_grid_frame(
-                    [
-                        ("Listings", len(listings), f"{available:,} available now", "", "listings", "", "", 0),
-                        ("Sharing activities", len(activities), f"{completed:,} completed", "info", "activities", "", "", 0),
-                        ("Campus members", len(members), f"{departments} departments", "gold", "users", "", "", 0),
-                        ("Value retained", int(value_saved), "estimated savings", "coral", "value", "₹", "", 0),
-                    ]
-                ),
-                height=178,
-                scrolling=False,
-            )
+        encoded = base64.b64encode(frame.encode("utf-8")).decode("ascii")
+        st.iframe(f"data:text/html;base64,{encoded}", height=178)
     except Exception:
-        components.html(
-            stat_grid_frame(
-                [
-                    ("Listings", len(listings), f"{available:,} available now", "", "listings", "", "", 0),
-                    ("Sharing activities", len(activities), f"{completed:,} completed", "info", "activities", "", "", 0),
-                    ("Campus members", len(members), f"{departments} departments", "gold", "users", "", "", 0),
-                    ("Value retained", int(value_saved), "estimated savings", "coral", "value", "₹", "", 0),
-                ]
-            ),
-            height=178,
-            scrolling=False,
-        )
+        components.html(frame, height=178, scrolling=False)
 
     section("Fresh on campus", "The newest listings available to your community")
     recent = listings[col(listings, "status") == "AVAILABLE"] if not listings.empty else listings
@@ -930,19 +912,19 @@ def impact_page() -> None:
         top = by_category.head(10).sort_values("value_saved")
         fig = bar_chart(top["item_category"].tolist(), top["value_saved"].tolist(), horizontal=True, height=330)
         fig.update_layout(title=dict(text="Value saved by category", font=dict(size=14)))
-        st.plotly_chart(fig, width="stretch", config={"displayModeBar": False})
+        plot_card(fig, "im_value")
     with c2:
         fig = donut_chart(by_type.index.tolist(), by_type.values.tolist(),
                           center_value=f"{len(data):,}", center_label="IMPACT RECORDS", height=330)
         fig.update_layout(title=dict(text="Impact by activity type", font=dict(size=14)))
-        st.plotly_chart(fig, width="stretch", config={"displayModeBar": False})
+        plot_card(fig, "im_type")
 
     c3, c4 = st.columns(2)
     with c3:
         monthly = _monthly_sum(data, "impact_date", "estimated_value_saved_inr")
         fig = line_chart(monthly["month"].tolist(), monthly["value"].tolist(), height=310)
         fig.update_layout(title=dict(text="Monthly value saved", font=dict(size=14)))
-        st.plotly_chart(fig, width="stretch", config={"displayModeBar": False})
+        plot_card(fig, "im_month")
     with c4:
         factors = pd.to_numeric(col(data, "estimated_material_reuse_factor"), errors="coerce").dropna()
         if factors.empty:
@@ -950,9 +932,9 @@ def impact_page() -> None:
         else:
             counts, edges = np.histogram(factors.clip(0, 1), bins=np.linspace(0, 1, 11))
             centers = [round(float((edges[i] + edges[i + 1]) / 2), 2) for i in range(len(counts))]
-            fig = histogram_chart(centers, counts.tolist(), height=310)
+            fig = histogram_chart(centers, counts.tolist(), height=350)
             fig.update_layout(title=dict(text="Reuse factor distribution", font=dict(size=14)))
-            st.plotly_chart(fig, width="stretch", config={"displayModeBar": False})
+            plot_card(fig, "im_factor")
 
     section("Category breakdown", "Aggregated with Pandas from impact.csv")
     top_categories = by_category.head(12)
@@ -1012,45 +994,45 @@ def analytics_page() -> None:
     c1, c2 = st.columns(2)
     with c1:
         fig = donut_chart(mode_counts.index.tolist(), mode_counts.values.tolist(),
-                          center_value=f"{len(data):,}", center_label="LISTINGS", height=320)
+                          center_value=f"{len(data):,}", center_label="LISTINGS", height=360)
         fig.update_layout(title=dict(text="Sharing mode mix", font=dict(size=14)))
-        st.plotly_chart(fig, width="stretch", config={"displayModeBar": False})
+        plot_card(fig, "an_mode_mix")
     with c2:
         ordered = cat_counts.sort_values()
-        fig = bar_chart(ordered.index.tolist(), ordered.values.tolist(), horizontal=True, height=320)
+        fig = bar_chart(ordered.index.tolist(), ordered.values.tolist(), horizontal=True, height=400)
         fig.update_layout(title=dict(text="Top categories", font=dict(size=14)))
-        st.plotly_chart(fig, width="stretch", config={"displayModeBar": False})
+        plot_card(fig, "an_categories")
 
     c3, c4 = st.columns(2)
     with c3:
         if "listed_date" in data:
             dates = pd.to_datetime(data["listed_date"], errors="coerce").dropna()
             monthly = dates.dt.to_period("M").astype(str).value_counts().sort_index().tail(18)
-            fig = line_chart(monthly.index.tolist(), monthly.values.tolist(), height=310, name="Listings")
+            fig = line_chart(monthly.index.tolist(), monthly.values.tolist(), height=350, name="Listings")
             fig.update_layout(title=dict(text="Listing volume by month", font=dict(size=14)))
-            st.plotly_chart(fig, width="stretch", config={"displayModeBar": False})
+            plot_card(fig, "an_volume")
     with c4:
         values = pd.to_numeric(col(data, "estimated_value_inr"), errors="coerce").dropna()
         if not values.empty:
             counts, edges = np.histogram(values, bins=16)
             centers = [round(float((edges[i] + edges[i + 1]) / 2)) for i in range(len(counts))]
-            fig = histogram_chart(centers, counts.tolist(), height=310)
+            fig = histogram_chart(centers, counts.tolist(), height=350)
             fig.update_layout(title=dict(text="Value distribution", font=dict(size=14)))
-            st.plotly_chart(fig, width="stretch", config={"displayModeBar": False})
+            plot_card(fig, "an_value_dist")
 
     c5, c6 = st.columns(2)
     with c5:
         status_counts = activities["activity_status"].value_counts() if "activity_status" in activities else pd.Series(dtype=int)
         fig = donut_chart(status_counts.index.tolist(), status_counts.values.tolist(),
-                          center_value=f"{len(activities):,}", center_label="ACTIVITIES", height=310)
+                          center_value=f"{len(activities):,}", center_label="ACTIVITIES", height=350)
         fig.update_layout(title=dict(text="Activity status", font=dict(size=14)))
-        st.plotly_chart(fig, width="stretch", config={"displayModeBar": False})
+        plot_card(fig, "an_status")
     with c6:
         if "pickup_location" in data:
             locations = data["pickup_location"].value_counts().head(8).sort_values()
-            fig = bar_chart(locations.index.tolist(), locations.values.tolist(), horizontal=True, height=310)
+            fig = bar_chart(locations.index.tolist(), locations.values.tolist(), horizontal=True, height=350)
             fig.update_layout(title=dict(text="Pickup hotspots", font=dict(size=14)))
-            st.plotly_chart(fig, width="stretch", config={"displayModeBar": False})
+            plot_card(fig, "an_hotspots")
 
 
 # ---------------------------------------------------------------------------
@@ -1184,14 +1166,14 @@ def smart_match_page() -> None:
 
 
 # ---------------------------------------------------------------------------
-# Settings
+# About
 # ---------------------------------------------------------------------------
 def _csv_bytes(df: pd.DataFrame) -> bytes:
     return df.to_csv(index=False).encode("utf-8")
 
 
-def settings_page() -> None:
-    md(page_header("Settings", "Workspace, data and presentation controls", "Settings"), unsafe_allow_html=True)
+def about_page() -> None:
+    md(page_header("About", "Share · Reuse · Save · Together", "About"), unsafe_allow_html=True)
 
     listings = all_items()
     activities = all_activities()
@@ -1221,8 +1203,8 @@ def settings_page() -> None:
         st.selectbox("Rows per page", [12, 16, 20, 24], key="page_size")
         st.checkbox("Reduce motion", key="reduce_motion", help="Disables ambient and hover animation.")
         md(
-            '<p class="cl-note">CampusLoop renders in dark mode only by design. '
-            'The template light theme is intentionally not exposed.</p>',
+            '<p class="cl-note">Switch between dark and light appearance any time from the '
+            'theme toggle in the top navbar.</p>',
             unsafe_allow_html=True,
         )
         if st.button("Refresh cached data", key="settings_refresh", width="stretch"):
@@ -1267,7 +1249,7 @@ def settings_page() -> None:
             </p>
             <div class="cl-kv"><span class="k">Stack</span><span class="v">Python · Streamlit · Pandas · NumPy · Plotly</span></div>
             <div class="cl-kv"><span class="k">Persistence</span><span class="v">CSV files in data/</span></div>
-            <div class="cl-kv"><span class="k">Visual system</span><span class="v">Template-derived glass UI, rebranded to CampusLoop</span></div>
+            <div class="cl-kv"><span class="k">Visual system</span><span class="v">CampusLoop glass UI · emerald, gold and violet accents</span></div>
             <div class="cl-kv"><span class="k">Matching</span><span class="v">Deterministic, rule-based, explainable</span></div>
         </div>
         """,
@@ -1287,19 +1269,20 @@ PAGES = {
     "Impact": impact_page,
     "Analytics": analytics_page,
     "Smart Match": smart_match_page,
-    "Settings": settings_page,
+    "About": about_page,
 }
 
 
 def main() -> None:
-    inject_css(st.session_state.get("reduce_motion", False))
+    inject_css(st.session_state.get("theme", "dark"), st.session_state.get("reduce_motion", False))
     md(
         '<div class="cl-orb cl-orb-1"></div>'
         '<div class="cl-orb cl-orb-2"></div>'
-        '<div class="cl-orb cl-orb-3"></div>',
+        '<div class="cl-orb cl-orb-3"></div>'
+        '<div class="cl-orb cl-orb-4"></div>',
         unsafe_allow_html=True,
     )
-    render_sidebar()
+    render_topbar()
     render_flash()
     page = st.session_state.get("page", "Home")
     PAGES.get(page, home_page)()

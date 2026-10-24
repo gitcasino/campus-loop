@@ -1,8 +1,7 @@
 """CampusLoop presentation layer.
 
-Template-derived dark glass UI (deep forest background, animated ambient
-orbs, glass surfaces, emerald/gold palette, Outfit + Space Mono typography)
-mapped onto CampusLoop's brand palette.
+Dark and light glass UI (deep forest or ivory ambient background, animated
+orbs, glass surfaces, emerald/gold palette, Outfit + Space Mono typography).
 """
 
 from .theme import CSS, inject_css, img_data_uri
